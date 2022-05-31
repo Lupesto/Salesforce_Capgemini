@@ -1,0 +1,670 @@
+[TRILHAS]
+todas trilhas tem como inicial a de lógica
+
+trilhas: Java, servicenow, salesForce, cloud
+
+ServiceNow (surgimento em 2003)
+viabiliza transformação digital de qualquer empresa
+pode também criar 
+muita coisa pronta
+recursos de AI, portais, apps... 
+
+
+era para gestão de serviços empresariais
+sempre atualizando, com uma força muito grande
+plataforma lider no ramo
+
+no dia-a-dia:
+poucas empresas usavam no brasil em 2013
+hoje se usa bastante 
+automatização de negócios
+vários segmentos utilizam
+
+relacionamento de clientes/gerenciamento
+automatização de processos
+
+documentação melhor
+treinamentos na própria plataforma
+
+para quem é a service now?
+para pessoa implementadora também tem espaço, desenvolvedores tb
+
+uma nova versão a cada6 meses
+
+
+
+--------------------
+SalesForce
+
+crm
+gerenciamento de clientes
+em nuvem
+informações sobre o cliente
+todos os setores com informações compartilhadas
+
+surgimento em 1999
+destaque pela capacidade de inovação
+gere a experiencia do cliente ocm a máquina
+diversos módulos, como telemarketing...
+
+
+ex:
+apps de comida,
+cupons de desconto
+sugestão de investimento
+tudo com salesforce atrás para entender o cliente, pensando na probabilidade de vc aceitar
+personaliza o atendimento ao cliente
+
+todo panorama do cliente para entender tudo sobre ele
+sabe se o cliente já abriu chamado de algo parecido
+o atendimento não perguntará sobre as mesma coisas, pois já terão essas informações
+
+low code/ no code
+ferramenta é para experiencia ao cliente
+
+automação
+tem parte de desenvolvimento
+chat bot
+muita demanda e pouco profissionais
+
+possibilita grande crescimento
+existem comunidades
+Querem criar 400mil empregos no brasil
+
+muito democrático
+------------------------
+JAVA
+
+linguagem de programação
+anos 90
+bastante difundida
+multiplataforma
+versatil
+
+onde temos java
+tudo que é lugar
+banco, compras online, sistemas maioria todos em java
+
+
+java trabalha tanto com back e front
+front <- visual
+back <- onde fica requisições
+
+
+
+
+------------------------
+http://capgeminischool.brazilsouth.cloudapp.azure.com/course/view.php?id=2
+
+
+
+primeiros passos na área de TI
+
+conteúdo programático:
+historia pc
+logica
+hardware e software
+software -> ferramentas para construção de um software
+como funciona tudo junto
+lógica para resolução de problemas
+exercícios
+
+
+---
+computador vem da palavra computar, máquina calcular
+1. ábaco, século 5
+1640, criado por pascal
+leibniz primeira m calculadora de bolso a executar quatro principais cálculos
+roda de leibniz, p´rimeiro sistema de númeração binário
+
+1694 - máquina de libenz
+primeira máquina mecânica programável <- feita pelo matematico jacquard. Uso de cartões perfurados
+george boole <- fundador da lógica matemática, 
+Charles babbage criação da máquina analitica com memorias e programas, século 19
+
+antes os computadores eram mecânicos, hoje são eletronicos
+
+vem sendo aperfeiçoado pelo tempo
+não possui só um inventor
+4 períodos
+1 geração 1951 - 1959
+circuitos e valvulas eletrônicas, 
+uso restrito
+imenso consumo de energia
+ex: ENiac
+200 quilowatts e 19mil válvulas
+ocupava 1 andar de um prédio
+
+2 geração 1959 - 1965
+ainda grandes
+transitores substituindo as valvulas
+uso comercial dos computadore
+
+3 geração 1965 - 1975
+circuitos integrados substituindo os transitores
+redução de tamanho
+criação chips 
+inicio dos computadores pessoais
+maior capacidade de armazenamento
+popularização
+
+
+4 geração 1975 - até hojes
+diminuição de tamanho
+maior capacidade de processamento
+investimento no design
+desktop, smartwatch, celulares...
+
+
+------
+aula 3.c
+lógica no mundo
+
+sempre existiu
+só foi descoberta
+aristoteles descobriu
+lógica aristotelica
+há um conjunto de lógicas
+pode não ser verdade, mas a lógica de uma frase deve ser verdadeira
+
+lógica nos computadores
+inicio para a àrea matemática com george boole
+
+já nos anos 60 previam que expresso da lógica usano a matemática seria possível criar uma máquina capaz de pensar <- inteligencia artificial
+
+é complexo o raciocionio humano
+
+-------
+aula 3.d
+
+hardware e software
+software são intaginveis
+hardware é tangível
+
+divisão hardware:
+dispositivos de entrada, saida, componentes internos e dispositivos de armazenamento secundário
+
+divisão software: software de sistema (sistema operacional) e software de aplicativo
+
+hardware não pode ser atacado por vírus, software sim
+falha do harware é aleatória, aumenta com o tempo. 
+Software é sistemático e não muda com o tempo.
+
+-----
+aula 04
+arquitetura é a mesma
+mas são reduzidos dependendo do tamanho do dispositivo
+
+todos possuem memória ram, processador, HD, fonte, monitor, placa mãe
+placa mãe serve para interligar tudo
+
+
+dispositivos de entrada, memórias primárias, memórias secundárias -> tudo vai para a saída
+
+
+processador - faz todos os calculos do comptuador
+placa mãe - conecta todos os componentes. Possui várias camadas com caminhos de fio de ouro
+
+memórias primárias -> memória RAM, uso temporário. Informações se perdem ao ser desligada
+muito cara, muito rápida
+
+Memórias secundárias (HD) -> salvo por tempo indeterminado
+lenta e barata
+
+
+----
+aula 4.b
+
+existem outras memórias primarias, as roms
+a bios por exemplo
+bios, programa para carregar o sistema operacional
+ela serve para dar boot
+
+HD, parece uma vitrola, com vários discos
+lento  e mecânico
+
+ssd, circuito eletrônico, 
+
+pc lento pode ser culpa do hd pois é mecânico
+
+----
+Aula 5.a
+
+software
+conjunto de instruções para que o computador execute determinada tarefa
+cada parte do hardware tem um software especifico
+
+software de aplicativo <- que chega ao usuário final, ex: editores de imagem
+
+programador monta instruções, comandos para o computador
+exige linguagem de programação
+
+cada linguagem tem um propósito
+com vantagens e desvantagens
+----
+
+PAREI AULA 5.B
+
+
+nós escrevemos o código em uma linguagem
+um copilador entra em ação e traduz para assembly
+depois se assembly vai para outra linguagem
+executor <- sistema operacional ou processaodr
+
+
+código objeto -> código de máquina
+única coisa que o processador consegue entender
+
+assembly - baixo nível
+dificil de se entender
+
+assembler converte de assembly para código de máquina
+
+browser é um interpretador 
+outro software é responsável por executar nosso código
+
+
+--
+aula 5.E
+linguagem compilada
+sempre que exectuamos a compilação gera uma vez
+
+linguagem interpretada
+sempre é traduzido sempre que 
+feita a todo momento
+
+
+--
+aula 6
+Interação hardware e software
+os dispositivosconversam com o processador
+pega no hd os arquivos do programa
+que manda informação para a memoria ram
+executa comando de maneira linear
+
+memoria secundária é continua
+
+---
+aula 7.a
+uso logica resoluções problemas
+algoritimo, sequencia de ações
+periodo de tempo finito
+resultadso esperados e bem definidos
+nosso dia a dia é um algoritimo
+tomar banho por exemplo é um passo a passo
+
+
+lógica formal
+proposções
+frase, declarativa, pode receber valor lógico
+verdadeira ou falsa
+nem toda frase é proposição ex: tenha um  bom dia
+proposição tem que ter base, gostos não são preposições
+-----
+
+aula 7.c
+
+algebra boolena / lógica matemática
+george boole
+utiliza simbolos e operações algebricos para representar proposições
+descobrindo se valor de preposição é verdadeiro ou falso
+interligar proposições com matemática
+
+
+leis fundamentais
+preposição é falso ou é verdadeira
+
+lei da contradição
+não pode ser simultaneamente V e F
+
+lei da funcionalidade
+proposições menores que podem dar valores lógicos as compostas
+
+---------
+Aula 7.d
+
+tabela verdade
+auxilia o raciocinio humano
+representa as proposições compostas
+exemplo p e q
+interligadas com operadores
+
+operadores lógicos:
+negação, conjunção, disjunção
+
+negação - inverter valor proposição 
+conjunção - todas as partes verdadeiros para a sentença ser verdadeira
+disjunção - 
+
+------------ 
+aula 7.e
+disjunção, só uma das partes sendo composta para que toda seja verdade
+um verdadeiro e outro falso
+apresentação tabela verdade
+
+---
+aula 8.a
+algoritimo 
+conjunto de regras, 
+número finito de etapas
+antecipar falhas
+claro
+sem ambiguidades
+deve prever tudo para resolver o problema
+efetivo
+----
+aula 8.b
+exemplo de algoritimo ligando no orelhão
+descrever passos para determinada tarefa
+prever todas possibilidades
+tem que ter ordem lógica
+alto indice de detalhamento
+
+----
+aula 9.a
+para resolver problema: 
+1. tem bem entendido o problema
+2. solução em forma de algoritmo.
+3. codificarem uma linguagem
+4. gerada a solução em programa
+
+----
+aula 9.b
+
+quanto melhor algoritimo melhor a solução
+passar pelo problema direto para codificação gerará outro problema, temos que ir antes para os algoritimos
+
+----
+aula 10.a
+
+pseudo código, escrever em linguagem natural o que o algoritimo fará
+e temos fluxogramas (são mais visuais e geometricos)
+apresenta as formas do fluxograma
+
+-----
+aula 10.b
+
+exemplo algoritimo escrito e fluxo
+
+
+------------
+aula 11.a
+
+verbo
+frases curtas
+sem ambiguidade
+
+precisamos dividir o problema em 3 fases fundamentais
+entrada, processamento e saída
+
+---------------
+aulas 12.a
+
+exercicios
+
+
+
+------------------------------------------------------
+LÓGICA DE PROGRAMAÇÃO 2
+tá cada vez mais fácil programar
+
+aula 1.b
+
+linhas de comando vai para um IDE
+há várias IDE
+ traduz seus códigos para a programação 
+
+alto nivel não rpecisamos preocupar com hardware
+são mais antigas
+pensam mais no hardware
+exigem mais conhecimento
+
+
+linguagem portugal
+programa visual AlG
+
+----------
+1.c
+
+portugal é só para aprender linguagem de programação
+php é para sites
+fácil aprendizado
+
+para windows, mac, linux, robos, para qualquer um 
+java
+criada em 1995
+
+c#
+criada pela microsoft
+mais focada no windows, mesma ideia que o java
+
+cobol
+1960
+feita para aplicações comerciais
+resolução de problemas matemáticos
+bancos ainda utilizam essa linguagem
+
+
+c e c++ 
+são mais antigas
+usadas pela microsoft para criar o windows
+
+pascal e delphi criação de ferramentas para desktop
+
+---
+1.d
+
+configurações de cores
+escreval() <- função para imprimir
+botão f9 executa
+
+
+----
+1.e
+exercicio com input nome e sobrenome
+
+
+----
+
+aula 2
+
+tipagem em linguagem de programação
+mostrando números inteiros e strings
+
+
+---
+
+real <- números com , no pascoal
+operador lógico <- boleano
+
+---
+2.c
+calculo  média
+[ver documentalçao portugol]
+
+if = se no portugal
+fimse
+
+--
+2.d
+
+elif = senão, se
+
+---
+2.e
+vários senão, se
+veículos e multas
+
+----
+operador lógico < ou verdade ou mentira
+<> diferente
+= igual
+uso do E (and) dois true
+
+---
+2.g
+uso do Ou
+com tipos de triangulos
+--
+2.h
+
+calculo IMC
+^ <- potência 
+conceito de curto circuito [pesquisar sobre]
+não leitura de um bloco, consumindo menos memória
+
+----
+PAREI EM 2.i
+
+
+operador escolher
+funciona igual o se, masé mais prático
+
+caso, outro caso... <- trabalha só com igualdade de valores
+
+--
+
+divisões devemos sempre guardar em variável do tipo real
+operador DIV
+% ou mod <- ver o resto de uma operação
+assim descobre se um numerro é par ou divisivel por outro
+
+
+---
+3.a
+função enquanto
+
+3.c exercicio
+---
+
+3.d
+função repita
+
+enquanto roda até a lógica de operação ser veraddeira
+no repita 
+é o do while
+repeat until 
+no python eu não sei
+
+função limpatela
+
+--
+
+3.e
+
+
+--
+3.f ~
+repetição com função para
+no para o i já é inicializado
+palavras reservadas são aquelas usadas na linguagem de programação
+
+para i de x ate x faca 
+
+
+--
+
+PAREI EM 3.G
+o para é o for no python
+
+tem como fazer um para reverso com atributo passo
+pular quantas casas vocês quiser
+
+for <-  quando vc sabe quantas repetições precisa
+while <- quadno não se sabe quantas repetições serão necessárias
+
+---
+3.h
+
+aleatório (n incio, n final)
+
+comando limpa tela para apagar tela
+
+---
+
+LÓGICA PROGRAMAÇÃO 2
+
+F5 breakpoint
+ponto inicial e final 
+
+f8 prox linha, rodar linha a linha
+f9 roda até o breakpoint
+f10 rodar até o final
+
+
+
+---
+
+aray/lista <- mesma coisa que vetor
+estão por de trás de 
+dicionários e listas dinamicas
+
+vetor é um tipo de variável
+ex: vetor[1..5] de literal
+vetor[1..10] de inteiro
+
+---
+criando um buscador
+usando o para (for)
+
+--- 
+1.d
+desafio
+aux e temp< nome comuns de variáveis que os programadores costumam colocar
+[FAZER TODAS ATIVIDADES EM UMA OUTRA LINGUAGEM QUE NÃO PYTHON]
+--
+
+parei aula 1.e
+
+estrutura de dados < conteúdo complicado
+método bolha ? ultrapassado
+organizar vetores em ordem
+
+para (for) identado dentro de outro para
+
+
+----
+aula f
+
+matrizes são vetores de mais de uma dimensão
+vetor [1..10, 1..10]
+analogia com cinema
+palavra reservada caso
+
+---
+aula a.a
+
+escopo variáveis> Local e global
+
+procedimento <- palavra reservada 
+função?
+variável local < só funciona dentro doprocedimento
+
+---
+aula 2.b
+interessante nomear as funções no infinitivo
+
+na verdade procedimento é diferente de função
+procedimento não tem retorno, função tem
+podemos usar uma função como atributo ou dentro de outra
+
+
+
+linguagens interpretadas?
+não são todas linguagens que funcionam linha a linha
+
+
+--- 
+
+aula 2.c
+
+é uma boa prática organizar o código par que o próximo consiga entende-lo
+
+ex: tipo de triangulos
+métodos <- são funções/procedimentos, termo das linguagens mais atuais
+variáveis declaradas do lado de fora no portugol são automaticamente globais
+
+
+----
+
+PAREI aula 2d
