@@ -666,5 +666,107 @@ variáveis declaradas do lado de fora no portugol são automaticamente globais
 
 
 ----
+2d
+criação  de um menu com escolha
+cadastro de clientes, salvando-os em um vetor
+variáveis globais funcionam por todo código
 
-PAREI aula 2d
+----
+2.e
+
+Observação sobre algumas linguagens
+caracter < char. Aceita só 1 caracter 
+string <- literal. Vários caracteres. Vetor de caracter
+
+programa: corretor automático de provas
+
+
+---------
+3.a
+
+
+banco de dados
+
+xampp <- Softwarecom outros softwares dentro
+MySQL
+dar um start apache e mySql
+ir em admin
+
+banco de dados pode ser um arquivo texto com informações, planilhas,  xml, dat... qualquer repositório que utilizamos para guardar informações
+
+
+clickar em base de dados
+Nome __ Agrupamento (conjunto de regras) -> Criar
+Criar uma tabela
+populamos uma base de dados com várias tabelas
+A quantidade de tabelas depende da regra de negócio
+ex: Tabela de estoque, clientes...
+
+Clicar em SQL
+escrever na caixa de diálogo
+pluralizar ao escrever os componentes
+
+CREATE TABLE CLIENTES
+toda tabela precisa da chave primária, o ID
+o próprio banco de dados pode gerar um ID para você, único no sistema
+limite de caracteres e preenchimento obrigatório
+clicar em executar
+
+lado esquerdo aparecerá sua nova tabela e colunas
+
+
+----------------
+3.b
+inserindo um cliente no banco de dados
+Clicar em Inserir
+
+existe o nChar que aceita outros caracteres
+para o nosso idioma o varchar já é o suficiente
+
+-------------
+
+3.c
+
+software pega as variáveis e joga para o banco de dados
+
+uso do update para substituir valores
+lembre de especificar o registro que quer atualizar, caso contrário tudo será igual ao colocado em Update
+
+Exclusão de um item na tabela
+-------------------
+3.d
+
+create - cria tabela
+insert - cria registro para uma tabela
+drop - apaga uma tabela
+delete - apaga registro
+
+valores char(fixo) e varchar(variável) <- ganho de performance interna caso saiba que seu dado for fixo e tenha sempre o mesmo número de caracteres (CPF, Placa de carro)  
+
+jamais salve a idade do cliente, mas sim a data de nascimetno
+há diversos macetes para aumento de performance
+
+geralmente não excluem o cliente, só trocam de ativo para inativo
+bit <- boleano sim ou não
+
+
+query -> comando que passamos para o banco de dados
+geralmente os sistemas são integrados aos banco de dados, não necessita que o usuário saiba programar
+
+Linguagem para todosos bancos de dados
+algumas palavras reservadas diferenciam
+
+-----
+3.e
+
+trabalhando com multiplas tabelas e pesquisar
+e relacionando-as
+
+produtos exigem unidades de medida 
+referenciar o ID para relacionar
+foreign key <- para relacionar duas tabelas
+
+não tem como apagar uma tabela com registros filhos linkados.
+
+----
+3.f
