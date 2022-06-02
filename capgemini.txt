@@ -769,4 +769,106 @@ foreign key <- para relacionar duas tabelas
 não tem como apagar uma tabela com registros filhos linkados.
 
 ----
-3.f
+3.f (rever)
+tabela associativa
+
+lista de produtos
+
+tabelascriadas:
+produto, venda e itens_vendas(só tem números)
+primaryKey composta <- não permitindo a venda de um mesmo ID venda com um ID não pode repetir ao mesmo tempo
+
+Chaves estrangeiras -> vindaas de outras tabelas
+
+ 
+
+----
+3.g
+
+pesquisa no banco de dados em duas tabelas diferentes
+inner join,  unir 
+definir relação entre esssas tabelas
+apostafro permite renomear uma coluna 
+
+dá para criar filtros pela caixa de código
+
+where p.preco <10 or p.qtd >10
+
+----
+3.h
+
+multiplicando usando o SQL
+calculando total das vendas 
+
+[simular um mercado]
+
+contar quantidade de registro por categoria
+uso do count  + group by 
+
+order by para ordernar 
+
+
+----
+Aula 4.a
+
+Orientação a objetos
+
+difeerente da programação estruturada
+criação cadastro cliente
+
+---
+Aula 4.b
+
+menu com cadastro de cliente utilizando objetos
+
+--
+Aula 4.c
+
+heranças
+mesma ideia do pinguin/galinha que são aves
+
+polimofismo
+fução que aceita como entrada PAI, podendo se comportar conforme o filho
+
+em chama se chama Classes
+
+--------------------
+
+LÓGICA DE PROGRAMAÇÃO 3
+
+ementa bem densa
+
+--- 
+aula 03
+baixar
+JAVA SE development kit 8 (JDK) <- p/ desenvolvimento
+JRE já temos na máquina, mas só serve para leitura
+
+no curso se utiliza o 8
+dar next até o final no JDK
+
+baixar o netbeans (tudo next) <- ferramenta de desenvolvimento
+XAMPP(conjunto de ferramentas) <- para trabalhar mySQL e apache
+
+
+
+
+---
+4.a 
+a mais ultilizada
+criação anos 90 
+criada para desenvolver eletrônicos, geladeiras
+em 95
+começaram a utilizar para aplicação web
+
+multiplataforma
+extensão .java
+após copilar gera um código intermediário, o byteCode, que é executado pelo JVM 
+todos computadores possuem o JRE, 
+
+Robusta, vários recursos
+
+---
+
+4.b
+
