@@ -872,3 +872,123 @@ Robusta, vários recursos
 
 4.b
 
+IDE são ferramentas de desenvolvimento
+net beans permite image drop, facilita na criação gráfica
+
+---
+4.c
+
+[gerenciadores de dependência?]
+java maven, grade, ant
+
+
+como criar um projeto no netbeans
+
+main no java:
+ponto de partida de execução do algoritimo
+tudo dentro das chaves será executado primeiro
+é o inicio e fim do programa
+
+comando para print 
+
+java é case sensitive, devemos respeitar maiusculas e minusculas
+
+f6 para rodar o programa
+
+---
+4.d
+
+3possibilidades de comentários
+
+em linha - //
+comentário de bloco (várias linhas) /* TEXTO AQUI */
+
+
+documentação, facilitar para os demais  /** */, tudo gerado neste tipo de comentário podemos exportar para consulta
+
+
+consulte a documentação de java
+
+
+--
+4.e
+
+importação biblioteca
+import java.util.Scanner
+
+System.in ?
+next e nextLine
+
+
+println vs print
+
+--
+
+4.f
+
+variáveis primitivas e não primitivas
+primitivas - valores simples (criadas no inicio da linguagem)
+não primitivas - valores mais compplexos
+
+para criar uma variável:
+dizer o tipo dela e dar o nome
+
+podemos declarar as variáveis em qualquer parte do java
+
+tipos de variáveis
+int, float, double, char (aspas simples), byte, boolean
+
+
+string (aspas duplas)
+
+resto divisão usar %
+Ordem dos operadores é válida em java
+
+
+---
+4.h if e else
+
+operadores relacionais (>, >= ...) e lógicos (&&, !(and, or)
+
+if aninhados
+
+---
+4.i
+
+switch (escolha caso)
+permite opções conforme o valor de uma variável
+exige case e break
+
+default - caso valor não exista
+
+
+---
+4.j
+
+lista de exercícios
+
+autocomplete - ctrl + espaco
+input com system in
+--- 
+4.k
+
+estrutura do for 
+
+
+--
+4.m 
+while 
+
+uso nextInt?
+manipulação string
+
+alt+shift para quebrar código
+
+decrementar = reduzir
+
+
+---
+4.n 
+
+
+
