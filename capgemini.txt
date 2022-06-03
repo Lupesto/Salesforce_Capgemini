@@ -991,4 +991,90 @@ decrementar = reduzir
 4.n 
 
 
+exercício 24 lista
+em netbeans criar arquivo java with grade
+criar programa input número e responde se ele é zero ou não
+
+scanner.next
+.charAT(0)
+uso do while
+
+
+---
+4.o e 4.p
+
+uso do for
+exercício 22
+
+.nextFloat
+
+habilitando utf-8 netbeans
+c: /netbeans/etc/netbeans.conf 
+adicionar linha em netbeans_default_options:
+-J-Dfile.encoding=UTF-8"
+
+--
+4q
+
+poo
+surgimento final anos 60
+antes resolvia-se de maneira estruturada 
+
+pilares: Polimorfismo, herança, abstração, Encapsulamento
+
+abstração- ver a entidade no mundo real, selecionar informações para utilização no algoritimo
+
+--
+4r
+
+na programação estruturada tinhamos
+Dados globais <- Procedimentos
+
+Na poo temos
+Dados do objeto, cada um dos objetos com seus métodos
+
+
+classe deve ter o nome da entidade que ela está representando
+na class colocamos informações essenciais para resolução do problema
+ex no imc: Peso e pessoa
+
+--
+4.s
+calculando imc com poo
+criando método
+retorno de valor
+colocar nome do método no infinitivo
+
+--
+4.t
+criando objeto
+classe estando em outro arquivo
+
+--
+4.u 
+
+principio de encapsulamento
+O objeto gerenciando suas informações
+ 
+por padrão os atributos são públicos
+torna-los private
+
+métodos acessores
+criando método de acesso para setar as variáveis 
+
+
+--
+4.v 
+método construtor (é o inicializador)
+regra de nomeação no infinitivo não se aplica a eles
+
+funciona assim que é chamado
+
+parametros <- pede no inicio do método
+uso do this.
+
+--
+
+4.w
+
 
