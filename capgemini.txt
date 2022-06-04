@@ -1076,5 +1076,93 @@ uso do this.
 --
 
 4.w
+uso de heranças
+
+alt + insert - gerar variáveis, construtor... mais praticidade
+
+informações em comum. Heranças permite a redução de código redundante.
+
+
+----
+4.x
+
+antes do desenvolvimento há uma fase de modelagem [pesquisar sobre]
+
+Criando uma classe mais generalista para abranger dois tipos de funcionários (vendedor e motorista) com funções diferentes, mas com informações semelhantes 
+
+Como chamar?
+public class Vendedor extends Funcionário {
+
+
+pq ele usou super() no extends? [pesquisar]
+
+---
+
+4.y
+
+
+---
+
+5.a
+
+Faça exercícios, pratique
+
+Cada exercício em um projeto
+exercício 20 da lista
+
+---
+5.b
+melhorias para o exercício 20
+
+uso do char em um if para parar uma repetição 
+"s"
+charAT()<- problema é que qualquer palavra com inicial s é aceita
+
+--
+6.a
+exercício 4
+usando construtor, this, if, criando a classe...
+getters e setters <- ainda não introduziu sobre [pesquisar + prática]
+
+---
+6.b
+melhorias solução exercício 4
+[variável do tipo double]
+
+melhor lugar para validar dados é no setters 
+
+
+--
+7.a
+Construção interface gráfica
+interação com usuário
+
+Ementa da aula
+tente replicar uma interface da internet [práticar]
+
+--
+
+7.b
+
+jFram form <- para criar tela
+no netbeans é só clicar e arrastar os componentes
+
+apresentação da interface na IDE
+preview design, parte do source, menus, botões,
+
+existem duas interfaces java 
+Swing e AWT(parecidas com as telas do windows 98) 
+
+No navigator apresenta os componentes na tela
+
+---
+
+7.c
+
+
+---
+
+7.d, falta aula 4y
+
 
 
