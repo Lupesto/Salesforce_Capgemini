@@ -1099,7 +1099,9 @@ pq ele usou super() no extends? [pesquisar]
 ---
 
 4.y
-
+estando em baixo para pegar o atributo da classe acima, classe superior ->
+usar o super();
+this. <- pegar atributos desta classe
 
 ---
 
@@ -1158,11 +1160,148 @@ No navigator apresenta os componentes na tela
 ---
 
 7.c
+apresentação dos elementos para criação de interface
+customização da interface nas propriedaes
+---
+7.d
+
+propriedades
+Só arrastar
+Borda, cor, background, fonte, 
+
+
+--
+7.e
+
+uso de eventos
+ações no software conforme as interações
+mesma janela de propriedades tem a  aba de eventos
+
+programação orientada a eventos
+ao clickar no evento a IDE vai te jogar para dentro do método, lá você pode escrever o tipo de mensagem que gerará ao acionar evento
 
 
 ---
 
-7.d, falta aula 4y
+7.f
+
+arvore - hierarquia dos componentes
+no navigator conseguimos ver a arvore
+espécie de camadas
+Renomear componentes visuais
+
+--
+7. g
+no desktop também há preocupações quanto a responsividade
+
+redimensionamento de componentes
+ativar opção de auto resizing
+----
+
+7.h
+
+lista de exercícios para interfaces
+reecriando uma interface
+---
+
+7.i
+continuação cópia interface
+escolhendo conjunto de bordas em uma janela
+
+--
+
+7.j
+
+responsividade
+pode evitar o redimensionamento de tela
+o uso deve ser ponderado, pois limita o uso do usuário e visualização por conta do monitor
+
+----
+
+8.a e 8.b
+
+construção de um software completo
+integração de todos os conhecimentos aprendidos até agora
+
+1º coisa a se fazer é especificar bem a ideia
+tudo que o software será capaz de fazer
+
+[importante]
+Inicio de um projeto
+	definição de um projeto básico
+		Colocar descrição, objetivo, nome,
+	requisitos do projeto
+		quais entidades(classes e seus atributos), funcionalidades, 
+	regras de negócio
+		regrasque o sistema deve seguir (ex: não ter login), 		validar um cpf em uma base de dados)
+
+	definição da tecnologia
+		java
+		mySql
+		Colocamos os frameworks aqui
+	
+
+
+
+O que será?
+aplicativos de tarefas (todo list)
+
+descrição> Gerenciamento de projeto e tarefas
+
+
+
+----
+
+9.a e B e c
+instalação xamp e criação tabelas 
+criando usando a interface do phpMyAdmin
+tabela de tarefas e projetos
+
+
+seguindo as especificações
+
+SQL pela interface <- seguir
+
+
+---
+9.d
+prototipos de interface
+ferramentas de prototipagem
+importante pois o desenvolvimento sem o netbeans é demorado
+
+apresentação de sites, banco de imagens, ferramentas de prototipagem
+
+
+---
+10.a 
+
+MVC (model,view controller)
+que reprentam as atividades(tarefas, projetos), view, controladores
+
+existem vários padrõesde projetos
+
+um pacote para cada um dos modes
+
+Construtores, getters e  setters do controller
+---
+10.b
+Construtores, getters e  setters do  model
+
+
+---
+
+10.c IMPORTANTE
+lista com etapas do desenvolvimento
+
+conectando com banco de dados
+precisamos do jbdc
+JBDC é um pacote dependente
+sessão dependências
+buscar por mysql-connector-java gradle
+
+---
+10.D
+
 
 
 
