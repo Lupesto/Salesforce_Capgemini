@@ -1293,14 +1293,70 @@ Construtores, getters e  setters do  model
 10.c IMPORTANTE
 lista com etapas do desenvolvimento
 
-conectando com banco de dados
+conectando java com banco de dados CONFIGURAÇÃO
 precisamos do jbdc
 JBDC é um pacote dependente
 sessão dependências
 buscar por mysql-connector-java gradle
+no site mvnrepository encontramos dependencias que não possuímos
 
 ---
 10.D
+apresentação do método para fazer conexão
+
+
+--
+10.e
+
+tratamento de exceção
+
+com try e catch 
+colocar bloco de código e possíveis soluções/mensagem de erro caso ocorra
+
+---
+10.f
+closeConection
+
+fechamento de conexão
+
+conectando e fechando conexão no main
+---
+11.a
+classes que buscam no banco de dados e trazem informações
+métodos: save, update, remove, getall
+dentro dos métodos colocamos os comandos SQL
+
+
+---
+
+11.b
+seção critica = passivel de erro <- precisamos colocar try e catch
+criação do método remove pelo ID
+bloco finally dentro de try
+
+
+----
+11.c
+criação método save
+campo Id não precisamos colocar no código pois é auto_increment
+
+---
+11.d
+[definição método construtor]
+método para crirar tarefa
+[qual a importância de fechar a conexão com o banco de dados?]
+
+--
+11.e
+
+
+
+--
+11.f
+update
+
+FAZER ATIVIDADES E APÓS TERMINO VOLTAR COM VÍDEOS
+
 
 
 
