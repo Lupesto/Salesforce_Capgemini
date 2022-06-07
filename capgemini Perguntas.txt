@@ -1,0 +1,1344 @@
+[TRILHAS]
+Qual a trilha obrigatória?
+todas trilhas tem como inicial a de lógica
+
+Quais as Trilhas?
+trilhas: Java, servicenow, salesForce, cloud
+
+
+Para que serve o servicenow?
+era para gestão de serviços empresariais
+plataforma lider no ramo
+automatização de negócios
+relacionamento de clientes/gerenciamento
+
+ServiceNow se atualiza de quanto em quanto tempo?
+uma nova versão a cada 6 meses
+
+
+
+Para que serve o Salesforce?
+é um crm. gerenciamento de clientes
+informações sobre o cliente
+gere a experiencia do cliente ocm a máquina
+personaliza o atendimento ao cliente
+
+
+O que o SalesForce permite em uma organização?
+todos os setores com informações compartilhadas
+
+
+Como acessar o SalesForce?
+pelo site
+
+
+Quando surgiu o SalesForce?
+surgimento em 1999
+
+
+
+Exemplos aplicação SalesForce:
+cupons de desconto
+sugestão de investimento
+tudo com salesforce atrás para entender o cliente, pensando na probabilidade de vc aceitar
+
+
+
+
+Vantagem em usar o SalesForce:
+o atendimento não perguntará sobre as mesma coisas, pois já terão essas informações
+
+
+
+Etimologia computador:
+computador vem da palavra computar, máquina calcular
+
+Qual foi  o primeiro computaador?
+ábaco, século 5
+
+Primeiros computadores:
+Leibniz
+
+
+Roda de leibniz:
+Primeiro sistema de númeração binário
+
+Primeira máquina mecânica programável:
+Máquina de libenz, feita pelo matemático Jacquard
+Uso de cartões perfurados
+
+
+George Boole
+fundador da lógica matemática, 
+
+
+
+Charles babbage 
+criação da máquina analitica com memorias e programas, século 19
+
+
+Como eram os computadores bem antigamente?
+antes os computadores eram mecânicos, hoje são eletronicos
+
+
+
+Qual a característica do computador?
+vem sendo aperfeiçoado pelo tempo
+não possui só um inventor
+
+
+Quais os períodos do computador?
+4 períodos
+1 geração 1951 - 1959
+2 geração 1959 - 1965
+3 geração 1965 - 1975
+4 geração 1975 - até hoje
+
+Característica da primeira geração computadores:
+circuitos e valvulas eletrônicas, 
+uso restrito
+imenso consumo de energia
+
+
+De qual geração o Eniac pertencia?
+primeira.
+
+
+Curiosidade sobre o ENIAC:
+Possuia 200 quilowatts e 19mil válvulas
+ocupava 1 andar de um prédio
+
+Característica da segunda geração computadores:
+ainda grandes
+transitores substituindo as valvulas
+uso comercial dos computadores
+
+
+
+Característica da terceira geração computadores:
+circuitos integrados substituindo os transitores
+redução de tamanho
+criação chips 
+inicio dos computadores pessoais
+maior capacidade de armazenamento
+popularização
+
+
+
+Característica da quarta geração computadores:
+vem diminuindo de tamanho
+maior capacidade de processamento
+investimento no design
+desktop, smartwatch, celulares...
+
+
+
+lógica no mundo
+Surgimento da lógica?
+Não surgiu, sempre existiu
+
+Foi descoberta por aristoteles
+
+
+Caracteristica de uma frase lógica:
+pode não ser verdade, mas a lógica de uma frase deve ser verdadeira
+
+
+Quem iniciou a lógica nos computadores?
+george boole
+
+Reflexões sobre a inteligência artificial:
+Já nos anos 60 acreditavam nessa possibilidade
+o raciocinio humano é complexo
+
+
+Diferença entre Hardware e software:
+software são intaginveis
+hardware é tangível
+
+
+
+O que compõe o hardware?
+dispositivos de entrada, saida, componentes internos e dispositivos de armazenamento secundário
+
+
+O que compõe o software?
+software de sistema (sistema operacional) e software de aplicativo
+
+Observações hardware e software:
+hardware não pode ser atacado por vírus, software sim
+falha do harware é aleatória, aumenta com o tempo. 
+Software é sistemático e não muda com o tempo.
+
+
+O que todo computador possui?
+todos possuem memória ram, processador, HD, fonte, monitor, placa mãe
+
+
+Para que serve a placa mãe?
+placa mãe serve para interligar tudo. Possui várias camadas com caminhos de fio de ouro
+
+
+Para que serve o processador?
+faz todos os calculos do computador
+
+
+memórias primárias:
+memória RAM e Roms, de uso temporário. Informações se perdem ao ser desligada
+muito cara, muito rápida
+
+Memórias secundárias:
+HD, salvo por tempo indeterminado
+lenta e barata
+
+
+
+O que é a bios?
+programa para carregar o sistema operacional, ela serve para dar boot
+
+
+Como parece o HD?
+parece uma vitrola, com vários discos, lento  e mecânico
+
+Como é o ssd?
+ssd, circuito eletrônico, 
+
+
+Qual principal motivo do pc estar lento?
+pc lento pode ser culpa do hd pois é mecânico
+
+>>>>>>>>>>>>>>>>>
+----
+Aula 5.a
+
+software
+conjunto de instruções para que o computador execute determinada tarefa
+cada parte do hardware tem um software especifico
+
+software de aplicativo <- que chega ao usuário final, ex: editores de imagem
+
+programador monta instruções, comandos para o computador
+exige linguagem de programação
+
+cada linguagem tem um propósito
+com vantagens e desvantagens
+----
+
+PAREI AULA 5.B
+
+
+nós escrevemos o código em uma linguagem
+um copilador entra em ação e traduz para assembly
+depois se assembly vai para outra linguagem
+executor <- sistema operacional ou processaodr
+
+
+código objeto -> código de máquina
+única coisa que o processador consegue entender
+
+assembly - baixo nível
+dificil de se entender
+
+assembler converte de assembly para código de máquina
+
+browser é um interpretador 
+outro software é responsável por executar nosso código
+
+
+--
+aula 5.E
+linguagem compilada
+sempre que exectuamos a compilação gera uma vez
+
+linguagem interpretada
+sempre é traduzido sempre que 
+feita a todo momento
+
+
+--
+aula 6
+Interação hardware e software
+os dispositivosconversam com o processador
+pega no hd os arquivos do programa
+que manda informação para a memoria ram
+executa comando de maneira linear
+
+memoria secundária é continua
+
+---
+aula 7.a
+uso logica resoluções problemas
+algoritimo, sequencia de ações
+periodo de tempo finito
+resultadso esperados e bem definidos
+nosso dia a dia é um algoritimo
+tomar banho por exemplo é um passo a passo
+
+
+lógica formal
+proposções
+frase, declarativa, pode receber valor lógico
+verdadeira ou falsa
+nem toda frase é proposição ex: tenha um  bom dia
+proposição tem que ter base, gostos não são preposições
+-----
+
+aula 7.c
+
+algebra boolena / lógica matemática
+george boole
+utiliza simbolos e operações algebricos para representar proposições
+descobrindo se valor de preposição é verdadeiro ou falso
+interligar proposições com matemática
+
+
+leis fundamentais
+preposição é falso ou é verdadeira
+
+lei da contradição
+não pode ser simultaneamente V e F
+
+lei da funcionalidade
+proposições menores que podem dar valores lógicos as compostas
+
+---------
+Aula 7.d
+
+tabela verdade
+auxilia o raciocinio humano
+representa as proposições compostas
+exemplo p e q
+interligadas com operadores
+
+operadores lógicos:
+negação, conjunção, disjunção
+
+negação - inverter valor proposição 
+conjunção - todas as partes verdadeiros para a sentença ser verdadeira
+disjunção - 
+
+------------ 
+aula 7.e
+disjunção, só uma das partes sendo composta para que toda seja verdade
+um verdadeiro e outro falso
+apresentação tabela verdade
+
+---
+aula 8.a
+algoritimo 
+conjunto de regras, 
+número finito de etapas
+antecipar falhas
+claro
+sem ambiguidades
+deve prever tudo para resolver o problema
+efetivo
+----
+aula 8.b
+exemplo de algoritimo ligando no orelhão
+descrever passos para determinada tarefa
+prever todas possibilidades
+tem que ter ordem lógica
+alto indice de detalhamento
+
+----
+aula 9.a
+para resolver problema: 
+1. tem bem entendido o problema
+2. solução em forma de algoritmo.
+3. codificarem uma linguagem
+4. gerada a solução em programa
+
+----
+aula 9.b
+
+quanto melhor algoritimo melhor a solução
+passar pelo problema direto para codificação gerará outro problema, temos que ir antes para os algoritimos
+
+----
+aula 10.a
+
+pseudo código, escrever em linguagem natural o que o algoritimo fará
+e temos fluxogramas (são mais visuais e geometricos)
+apresenta as formas do fluxograma
+
+-----
+aula 10.b
+
+exemplo algoritimo escrito e fluxo
+
+
+------------
+aula 11.a
+
+verbo
+frases curtas
+sem ambiguidade
+
+precisamos dividir o problema em 3 fases fundamentais
+entrada, processamento e saída
+
+---------------
+aulas 12.a
+
+exercicios
+
+
+
+------------------------------------------------------
+LÓGICA DE PROGRAMAÇÃO 2
+tá cada vez mais fácil programar
+
+aula 1.b
+
+linhas de comando vai para um IDE
+há várias IDE
+ traduz seus códigos para a programação 
+
+alto nivel não rpecisamos preocupar com hardware
+são mais antigas
+pensam mais no hardware
+exigem mais conhecimento
+
+
+linguagem portugal
+programa visual AlG
+
+----------
+1.c
+
+portugal é só para aprender linguagem de programação
+php é para sites
+fácil aprendizado
+
+para windows, mac, linux, robos, para qualquer um 
+java
+criada em 1995
+
+c#
+criada pela microsoft
+mais focada no windows, mesma ideia que o java
+
+cobol
+1960
+feita para aplicações comerciais
+resolução de problemas matemáticos
+bancos ainda utilizam essa linguagem
+
+
+c e c++ 
+são mais antigas
+usadas pela microsoft para criar o windows
+
+pascal e delphi criação de ferramentas para desktop
+
+---
+1.d
+
+configurações de cores
+escreval() <- função para imprimir
+botão f9 executa
+
+
+----
+1.e
+exercicio com input nome e sobrenome
+
+
+----
+
+aula 2
+
+tipagem em linguagem de programação
+mostrando números inteiros e strings
+
+
+---
+
+real <- números com , no pascoal
+operador lógico <- boleano
+
+---
+2.c
+calculo  média
+[ver documentalçao portugol]
+
+if = se no portugal
+fimse
+
+--
+2.d
+
+elif = senão, se
+
+---
+2.e
+vários senão, se
+veículos e multas
+
+----
+operador lógico < ou verdade ou mentira
+<> diferente
+= igual
+uso do E (and) dois true
+
+---
+2.g
+uso do Ou
+com tipos de triangulos
+--
+2.h
+
+calculo IMC
+^ <- potência 
+conceito de curto circuito [pesquisar sobre]
+não leitura de um bloco, consumindo menos memória
+
+----
+PAREI EM 2.i
+
+
+operador escolher
+funciona igual o se, masé mais prático
+
+caso, outro caso... <- trabalha só com igualdade de valores
+
+--
+
+divisões devemos sempre guardar em variável do tipo real
+operador DIV
+% ou mod <- ver o resto de uma operação
+assim descobre se um numerro é par ou divisivel por outro
+
+
+---
+3.a
+função enquanto
+
+3.c exercicio
+---
+
+3.d
+função repita
+
+enquanto roda até a lógica de operação ser veraddeira
+no repita 
+é o do while
+repeat until 
+no python eu não sei
+
+função limpatela
+
+--
+
+3.e
+
+
+--
+3.f ~
+repetição com função para
+no para o i já é inicializado
+palavras reservadas são aquelas usadas na linguagem de programação
+
+para i de x ate x faca 
+
+
+--
+
+PAREI EM 3.G
+o para é o for no python
+
+tem como fazer um para reverso com atributo passo
+pular quantas casas vocês quiser
+
+for <-  quando vc sabe quantas repetições precisa
+while <- quadno não se sabe quantas repetições serão necessárias
+
+---
+3.h
+
+aleatório (n incio, n final)
+
+comando limpa tela para apagar tela
+
+---
+
+LÓGICA PROGRAMAÇÃO 2
+
+F5 breakpoint
+ponto inicial e final 
+
+f8 prox linha, rodar linha a linha
+f9 roda até o breakpoint
+f10 rodar até o final
+
+
+
+---
+
+aray/lista <- mesma coisa que vetor
+estão por de trás de 
+dicionários e listas dinamicas
+
+vetor é um tipo de variável
+ex: vetor[1..5] de literal
+vetor[1..10] de inteiro
+
+---
+criando um buscador
+usando o para (for)
+
+--- 
+1.d
+desafio
+aux e temp< nome comuns de variáveis que os programadores costumam colocar
+[FAZER TODAS ATIVIDADES EM UMA OUTRA LINGUAGEM QUE NÃO PYTHON]
+--
+
+parei aula 1.e
+
+estrutura de dados < conteúdo complicado
+método bolha ? ultrapassado
+organizar vetores em ordem
+
+para (for) identado dentro de outro para
+
+
+----
+aula f
+
+matrizes são vetores de mais de uma dimensão
+vetor [1..10, 1..10]
+analogia com cinema
+palavra reservada caso
+
+---
+aula a.a
+
+escopo variáveis> Local e global
+
+procedimento <- palavra reservada 
+função?
+variável local < só funciona dentro doprocedimento
+
+---
+aula 2.b
+interessante nomear as funções no infinitivo
+
+na verdade procedimento é diferente de função
+procedimento não tem retorno, função tem
+podemos usar uma função como atributo ou dentro de outra
+
+
+
+linguagens interpretadas?
+não são todas linguagens que funcionam linha a linha
+
+
+--- 
+
+aula 2.c
+
+é uma boa prática organizar o código par que o próximo consiga entende-lo
+
+ex: tipo de triangulos
+métodos <- são funções/procedimentos, termo das linguagens mais atuais
+variáveis declaradas do lado de fora no portugol são automaticamente globais
+
+
+----
+2d
+criação  de um menu com escolha
+cadastro de clientes, salvando-os em um vetor
+variáveis globais funcionam por todo código
+
+----
+2.e
+
+Observação sobre algumas linguagens
+caracter < char. Aceita só 1 caracter 
+string <- literal. Vários caracteres. Vetor de caracter
+
+programa: corretor automático de provas
+
+
+---------
+3.a
+
+
+banco de dados
+
+xampp <- Softwarecom outros softwares dentro
+MySQL
+dar um start apache e mySql
+ir em admin
+
+banco de dados pode ser um arquivo texto com informações, planilhas,  xml, dat... qualquer repositório que utilizamos para guardar informações
+
+
+clickar em base de dados
+Nome __ Agrupamento (conjunto de regras) -> Criar
+Criar uma tabela
+populamos uma base de dados com várias tabelas
+A quantidade de tabelas depende da regra de negócio
+ex: Tabela de estoque, clientes...
+
+Clicar em SQL
+escrever na caixa de diálogo
+pluralizar ao escrever os componentes
+
+CREATE TABLE CLIENTES
+toda tabela precisa da chave primária, o ID
+o próprio banco de dados pode gerar um ID para você, único no sistema
+limite de caracteres e preenchimento obrigatório
+clicar em executar
+
+lado esquerdo aparecerá sua nova tabela e colunas
+
+
+----------------
+3.b
+inserindo um cliente no banco de dados
+Clicar em Inserir
+
+existe o nChar que aceita outros caracteres
+para o nosso idioma o varchar já é o suficiente
+
+-------------
+
+3.c
+
+software pega as variáveis e joga para o banco de dados
+
+uso do update para substituir valores
+lembre de especificar o registro que quer atualizar, caso contrário tudo será igual ao colocado em Update
+
+Exclusão de um item na tabela
+-------------------
+3.d
+
+create - cria tabela
+insert - cria registro para uma tabela
+drop - apaga uma tabela
+delete - apaga registro
+
+valores char(fixo) e varchar(variável) <- ganho de performance interna caso saiba que seu dado for fixo e tenha sempre o mesmo número de caracteres (CPF, Placa de carro)  
+
+jamais salve a idade do cliente, mas sim a data de nascimetno
+há diversos macetes para aumento de performance
+
+geralmente não excluem o cliente, só trocam de ativo para inativo
+bit <- boleano sim ou não
+
+
+query -> comando que passamos para o banco de dados
+geralmente os sistemas são integrados aos banco de dados, não necessita que o usuário saiba programar
+
+Linguagem para todosos bancos de dados
+algumas palavras reservadas diferenciam
+
+-----
+3.e
+
+trabalhando com multiplas tabelas e pesquisar
+e relacionando-as
+
+produtos exigem unidades de medida 
+referenciar o ID para relacionar
+foreign key <- para relacionar duas tabelas
+
+não tem como apagar uma tabela com registros filhos linkados.
+
+----
+3.f (rever)
+tabela associativa
+
+lista de produtos
+
+tabelascriadas:
+produto, venda e itens_vendas(só tem números)
+primaryKey composta <- não permitindo a venda de um mesmo ID venda com um ID não pode repetir ao mesmo tempo
+
+Chaves estrangeiras -> vindaas de outras tabelas
+
+ 
+
+----
+3.g
+
+pesquisa no banco de dados em duas tabelas diferentes
+inner join,  unir 
+definir relação entre esssas tabelas
+apostafro permite renomear uma coluna 
+
+dá para criar filtros pela caixa de código
+
+where p.preco <10 or p.qtd >10
+
+----
+3.h
+
+multiplicando usando o SQL
+calculando total das vendas 
+
+[simular um mercado]
+
+contar quantidade de registro por categoria
+uso do count  + group by 
+
+order by para ordernar 
+
+
+----
+Aula 4.a
+
+Orientação a objetos
+
+difeerente da programação estruturada
+criação cadastro cliente
+
+---
+Aula 4.b
+
+menu com cadastro de cliente utilizando objetos
+
+--
+Aula 4.c
+
+heranças
+mesma ideia do pinguin/galinha que são aves
+
+polimofismo
+fução que aceita como entrada PAI, podendo se comportar conforme o filho
+
+em chama se chama Classes
+
+--------------------
+
+LÓGICA DE PROGRAMAÇÃO 3
+
+ementa bem densa
+
+--- 
+aula 03
+baixar
+JAVA SE development kit 8 (JDK) <- p/ desenvolvimento
+JRE já temos na máquina, mas só serve para leitura
+
+no curso se utiliza o 8
+dar next até o final no JDK
+
+baixar o netbeans (tudo next) <- ferramenta de desenvolvimento
+XAMPP(conjunto de ferramentas) <- para trabalhar mySQL e apache
+
+
+
+
+---
+4.a 
+a mais ultilizada
+criação anos 90 
+criada para desenvolver eletrônicos, geladeiras
+em 95
+começaram a utilizar para aplicação web
+
+multiplataforma
+extensão .java
+após copilar gera um código intermediário, o byteCode, que é executado pelo JVM 
+todos computadores possuem o JRE, 
+
+Robusta, vários recursos
+
+---
+
+4.b
+
+IDE são ferramentas de desenvolvimento
+net beans permite image drop, facilita na criação gráfica
+
+---
+4.c
+
+[gerenciadores de dependência?]
+java maven, grade, ant
+
+
+como criar um projeto no netbeans
+
+main no java:
+ponto de partida de execução do algoritimo
+tudo dentro das chaves será executado primeiro
+é o inicio e fim do programa
+
+comando para print 
+
+java é case sensitive, devemos respeitar maiusculas e minusculas
+
+f6 para rodar o programa
+
+---
+4.d
+
+3possibilidades de comentários
+
+em linha - //
+comentário de bloco (várias linhas) /* TEXTO AQUI */
+
+
+documentação, facilitar para os demais  /** */, tudo gerado neste tipo de comentário podemos exportar para consulta
+
+
+consulte a documentação de java
+
+
+--
+4.e
+
+importação biblioteca
+import java.util.Scanner
+
+System.in ?
+next e nextLine
+
+
+println vs print
+
+--
+
+4.f
+
+variáveis primitivas e não primitivas
+primitivas - valores simples (criadas no inicio da linguagem)
+não primitivas - valores mais compplexos
+
+para criar uma variável:
+dizer o tipo dela e dar o nome
+
+podemos declarar as variáveis em qualquer parte do java
+
+tipos de variáveis
+int, float, double, char (aspas simples), byte, boolean
+
+
+string (aspas duplas)
+
+resto divisão usar %
+Ordem dos operadores é válida em java
+
+
+---
+4.h if e else
+
+operadores relacionais (>, >= ...) e lógicos (&&, !(and, or)
+
+if aninhados
+
+---
+4.i
+
+switch (escolha caso)
+permite opções conforme o valor de uma variável
+exige case e break
+
+default - caso valor não exista
+
+
+---
+4.j
+
+lista de exercícios
+
+autocomplete - ctrl + espaco
+input com system in
+--- 
+4.k
+
+estrutura do for 
+
+
+--
+4.m 
+while 
+
+uso nextInt?
+manipulação string
+
+alt+shift para quebrar código
+
+decrementar = reduzir
+
+
+---
+4.n 
+
+
+exercício 24 lista
+em netbeans criar arquivo java with grade
+criar programa input número e responde se ele é zero ou não
+
+scanner.next
+.charAT(0)
+uso do while
+
+
+---
+4.o e 4.p
+
+uso do for
+exercício 22
+
+.nextFloat
+
+habilitando utf-8 netbeans
+c: /netbeans/etc/netbeans.conf 
+adicionar linha em netbeans_default_options:
+-J-Dfile.encoding=UTF-8"
+
+--
+4q
+
+poo
+surgimento final anos 60
+antes resolvia-se de maneira estruturada 
+
+pilares: Polimorfismo, herança, abstração, Encapsulamento
+
+abstração- ver a entidade no mundo real, selecionar informações para utilização no algoritimo
+
+--
+4r
+
+na programação estruturada tinhamos
+Dados globais <- Procedimentos
+
+Na poo temos
+Dados do objeto, cada um dos objetos com seus métodos
+
+
+classe deve ter o nome da entidade que ela está representando
+na class colocamos informações essenciais para resolução do problema
+ex no imc: Peso e pessoa
+
+--
+4.s
+calculando imc com poo
+criando método
+retorno de valor
+colocar nome do método no infinitivo
+
+--
+4.t
+criando objeto
+classe estando em outro arquivo
+
+--
+4.u 
+
+principio de encapsulamento
+O objeto gerenciando suas informações
+ 
+por padrão os atributos são públicos
+torna-los private
+
+métodos acessores
+criando método de acesso para setar as variáveis 
+
+
+--
+4.v 
+método construtor (é o inicializador)
+regra de nomeação no infinitivo não se aplica a eles
+
+funciona assim que é chamado
+
+parametros <- pede no inicio do método
+uso do this.
+
+--
+
+4.w
+uso de heranças
+
+alt + insert - gerar variáveis, construtor... mais praticidade
+
+informações em comum. Heranças permite a redução de código redundante.
+
+
+----
+4.x
+
+antes do desenvolvimento há uma fase de modelagem [pesquisar sobre]
+
+Criando uma classe mais generalista para abranger dois tipos de funcionários (vendedor e motorista) com funções diferentes, mas com informações semelhantes 
+
+Como chamar?
+public class Vendedor extends Funcionário {
+
+
+pq ele usou super() no extends? [pesquisar]
+
+---
+
+4.y
+estando em baixo para pegar o atributo da classe acima, classe superior ->
+usar o super();
+this. <- pegar atributos desta classe
+
+---
+
+5.a
+
+Faça exercícios, pratique
+
+Cada exercício em um projeto
+exercício 20 da lista
+
+---
+5.b
+melhorias para o exercício 20
+
+uso do char em um if para parar uma repetição 
+"s"
+charAT()<- problema é que qualquer palavra com inicial s é aceita
+
+--
+6.a
+exercício 4
+usando construtor, this, if, criando a classe...
+getters e setters <- ainda não introduziu sobre [pesquisar + prática]
+
+---
+6.b
+melhorias solução exercício 4
+[variável do tipo double]
+
+melhor lugar para validar dados é no setters 
+
+
+--
+7.a
+Construção interface gráfica
+interação com usuário
+
+Ementa da aula
+tente replicar uma interface da internet [práticar]
+
+--
+
+7.b
+
+jFram form <- para criar tela
+no netbeans é só clicar e arrastar os componentes
+
+apresentação da interface na IDE
+preview design, parte do source, menus, botões,
+
+existem duas interfaces java 
+Swing e AWT(parecidas com as telas do windows 98) 
+
+No navigator apresenta os componentes na tela
+
+---
+
+7.c
+apresentação dos elementos para criação de interface
+customização da interface nas propriedaes
+---
+7.d
+
+propriedades
+Só arrastar
+Borda, cor, background, fonte, 
+
+
+--
+7.e
+
+uso de eventos
+ações no software conforme as interações
+mesma janela de propriedades tem a  aba de eventos
+
+programação orientada a eventos
+ao clickar no evento a IDE vai te jogar para dentro do método, lá você pode escrever o tipo de mensagem que gerará ao acionar evento
+
+
+---
+
+7.f
+
+arvore - hierarquia dos componentes
+no navigator conseguimos ver a arvore
+espécie de camadas
+Renomear componentes visuais
+
+--
+7. g
+no desktop também há preocupações quanto a responsividade
+
+redimensionamento de componentes
+ativar opção de auto resizing
+----
+
+7.h
+
+lista de exercícios para interfaces
+reecriando uma interface
+---
+
+7.i
+continuação cópia interface
+escolhendo conjunto de bordas em uma janela
+
+--
+
+7.j
+
+responsividade
+pode evitar o redimensionamento de tela
+o uso deve ser ponderado, pois limita o uso do usuário e visualização por conta do monitor
+
+----
+
+8.a e 8.b
+
+construção de um software completo
+integração de todos os conhecimentos aprendidos até agora
+
+1º coisa a se fazer é especificar bem a ideia
+tudo que o software será capaz de fazer
+
+[importante]
+Inicio de um projeto
+	definição de um projeto básico
+		Colocar descrição, objetivo, nome,
+	requisitos do projeto
+		quais entidades(classes e seus atributos), funcionalidades, 
+	regras de negócio
+		regrasque o sistema deve seguir (ex: não ter login), 		validar um cpf em uma base de dados)
+
+	definição da tecnologia
+		java
+		mySql
+		Colocamos os frameworks aqui
+	
+
+
+
+O que será?
+aplicativos de tarefas (todo list)
+
+descrição> Gerenciamento de projeto e tarefas
+
+
+
+----
+
+9.a e B e c
+instalação xamp e criação tabelas 
+criando usando a interface do phpMyAdmin
+tabela de tarefas e projetos
+
+
+seguindo as especificações
+
+SQL pela interface <- seguir
+
+
+---
+9.d
+prototipos de interface
+ferramentas de prototipagem
+importante pois o desenvolvimento sem o netbeans é demorado
+
+apresentação de sites, banco de imagens, ferramentas de prototipagem
+
+
+---
+10.a 
+
+MVC (model,view controller)
+que reprentam as atividades(tarefas, projetos), view, controladores
+
+existem vários padrõesde projetos
+
+um pacote para cada um dos modes
+
+Construtores, getters e  setters do controller
+---
+10.b
+Construtores, getters e  setters do  model
+
+
+---
+
+10.c IMPORTANTE
+lista com etapas do desenvolvimento
+
+conectando java com banco de dados CONFIGURAÇÃO
+precisamos do jbdc
+JBDC é um pacote dependente
+sessão dependências
+buscar por mysql-connector-java gradle
+no site mvnrepository encontramos dependencias que não possuímos
+
+---
+10.D
+apresentação do método para fazer conexão
+
+
+--
+10.e
+
+tratamento de exceção
+
+com try e catch 
+colocar bloco de código e possíveis soluções/mensagem de erro caso ocorra
+
+---
+10.f
+closeConection
+
+fechamento de conexão
+
+conectando e fechando conexão no main
+---
+11.a
+classes que buscam no banco de dados e trazem informações
+métodos: save, update, remove, getall
+dentro dos métodos colocamos os comandos SQL
+
+
+---
+
+11.b
+seção critica = passivel de erro <- precisamos colocar try e catch
+criação do método remove pelo ID
+bloco finally dentro de try
+
+
+----
+11.c
+criação método save
+campo Id não precisamos colocar no código pois é auto_increment
+
+---
+11.d
+[definição método construtor]
+método para crirar tarefa
+[qual a importância de fechar a conexão com o banco de dados?]
+
+--
+11.e
+
+
+
+--
+11.f
+update
+
+FAZER ATIVIDADES E APÓS TERMINO VOLTAR COM VÍDEOS
+
+
+
+
+
