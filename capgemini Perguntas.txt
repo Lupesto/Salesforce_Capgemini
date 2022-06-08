@@ -211,692 +211,289 @@ pc lento pode ser culpa do hd pois é mecânico
 ----
 Aula 5.a
 
-software
+O que é um software?
 conjunto de instruções para que o computador execute determinada tarefa
 cada parte do hardware tem um software especifico
 
-software de aplicativo <- que chega ao usuário final, ex: editores de imagem
 
-programador monta instruções, comandos para o computador
-exige linguagem de programação
-
-cada linguagem tem um propósito
-com vantagens e desvantagens
-----
-
-PAREI AULA 5.B
+O que é um software de aplicativo?
+que chega ao usuário final, ex: editores de imagem
 
 
-nós escrevemos o código em uma linguagem
-um copilador entra em ação e traduz para assembly
-depois se assembly vai para outra linguagem
-executor <- sistema operacional ou processaodr
+Defina a função de um programador:
+programador monta instruções, comandos para o computador. Para fazer isso exige linguagem de programação
+
+Qual a diferença entre as linguagens de programação?
+cada uma tem um propósito, com vantagens e desvantagens
 
 
+
+Fluxo para o desenvolvimento de software:
+escrita do código em uma linguagem > Copilador traduz para assembly > Tradução para código de máquina > Executor (s.o e processador)
+
+
+
+Que tipo de códgio o prcessador consegue entender?
 código objeto -> código de máquina
-única coisa que o processador consegue entender
-
-assembly - baixo nível
-dificil de se entender
-
-assembler converte de assembly para código de máquina
-
-browser é um interpretador 
-outro software é responsável por executar nosso código
 
 
---
-aula 5.E
-linguagem compilada
-sempre que exectuamos a compilação gera uma vez
-
-linguagem interpretada
-sempre é traduzido sempre que 
-feita a todo momento
+O que é assembly?
+linguagem de baixo nível, dificil de se entender
 
 
---
-aula 6
-Interação hardware e software
-os dispositivosconversam com o processador
-pega no hd os arquivos do programa
-que manda informação para a memoria ram
-executa comando de maneira linear
+Qual a função do browser?
+interpretador, responsável por executar nosso código
 
-memoria secundária é continua
 
----
-aula 7.a
-uso logica resoluções problemas
+
+
+
+[linguagem compilada]
+
+[linguagem interpretada]
+
+
+Processo no computador para executar um softwae:
+depende da interação hardware e software
+os dispositivos conversam com o processador que pega no hd os arquivos do programa depois manda as informações para a memoria ram
+
+
+
+O que é um algoritimo?
 algoritimo, sequencia de ações
 periodo de tempo finito
-resultadso esperados e bem definidos
-nosso dia a dia é um algoritimo
-tomar banho por exemplo é um passo a passo
-
-
-lógica formal
-proposções
-frase, declarativa, pode receber valor lógico
-verdadeira ou falsa
-nem toda frase é proposição ex: tenha um  bom dia
-proposição tem que ter base, gostos não são preposições
------
-
-aula 7.c
-
-algebra boolena / lógica matemática
-george boole
-utiliza simbolos e operações algebricos para representar proposições
-descobrindo se valor de preposição é verdadeiro ou falso
-interligar proposições com matemática
-
-
-leis fundamentais
-preposição é falso ou é verdadeira
-
-lei da contradição
-não pode ser simultaneamente V e F
-
-lei da funcionalidade
-proposições menores que podem dar valores lógicos as compostas
-
----------
-Aula 7.d
-
-tabela verdade
-auxilia o raciocinio humano
-representa as proposições compostas
-exemplo p e q
-interligadas com operadores
-
-operadores lógicos:
-negação, conjunção, disjunção
-
-negação - inverter valor proposição 
-conjunção - todas as partes verdadeiros para a sentença ser verdadeira
-disjunção - 
-
------------- 
-aula 7.e
-disjunção, só uma das partes sendo composta para que toda seja verdade
-um verdadeiro e outro falso
-apresentação tabela verdade
-
----
-aula 8.a
-algoritimo 
-conjunto de regras, 
-número finito de etapas
+Resultados esperados e bem definidos
 antecipar falhas
 claro
 sem ambiguidades
 deve prever tudo para resolver o problema
 efetivo
-----
-aula 8.b
-exemplo de algoritimo ligando no orelhão
-descrever passos para determinada tarefa
-prever todas possibilidades
-tem que ter ordem lógica
-alto indice de detalhamento
-
-----
-aula 9.a
-para resolver problema: 
-1. tem bem entendido o problema
-2. solução em forma de algoritmo.
-3. codificarem uma linguagem
-4. gerada a solução em programa
-
-----
-aula 9.b
-
-quanto melhor algoritimo melhor a solução
-passar pelo problema direto para codificação gerará outro problema, temos que ir antes para os algoritimos
-
-----
-aula 10.a
-
-pseudo código, escrever em linguagem natural o que o algoritimo fará
-e temos fluxogramas (são mais visuais e geometricos)
-apresenta as formas do fluxograma
-
------
-aula 10.b
-
-exemplo algoritimo escrito e fluxo
+Exemplos: Tomar banho, receita comida, fazer uma manutenção...
 
 
-------------
-aula 11.a
 
-verbo
-frases curtas
-sem ambiguidade
+O que é uma proposição?
+frase, declarativa, pode receber valor lógico
+verdadeira ou falsa
 
+
+
+O que é algebra boolena / lógica matemática?
+george boole. Utiliza simbolos e operações algebricos para representar proposições, escreve proposições com matemática
+
+
+Lei fundamental das proposições:
+Ou é verdeira ou falsa
+
+Em proposição, leis:
+lei da contradição:
+não pode ser simultaneamente V e F
+lei da funcionalidade
+proposições menores que podem dar valores lógicos as compostas
+
+
+
+
+
+O que é tabela verdade
+auxilia o raciocinio humano, representando proposições compostas uso do p e q, interligando com operadores
+
+
+
+Em proposição, quais os operadores lógicos?
+negação, conjunção e disjunção
+
+
+
+Proposição: negação
+inverter valor proposição 
+
+Proposição: conjunção
+todas as partes verdadeiros para a sentença ser verdadeira
+
+
+Proposição: disjunção
+disjunção, só uma das partes sendo composta para que toda seja verdade
+um verdadeiro e outro falso
+
+
+
+
+
+
+Como resolver um problema com algoritimos? 
+ter um bom entendimento do problema
+observação: passar pelo problema direto para codificação gerará outro problema.
+
+
+O que é pseudo código?
+ escrever em linguagem natural o que o algoritimo fará, depois passamos para fluxogramas 
+
+
+[ver formas para um fluxograma]
+
+
+
+
+
+Quais as 3 fases ao desenvolver uma solução?
 precisamos dividir o problema em 3 fases fundamentais
 entrada, processamento e saída
 
----------------
-aulas 12.a
-
-exercicios
 
 
-
-------------------------------------------------------
-LÓGICA DE PROGRAMAÇÃO 2
-tá cada vez mais fácil programar
-
-aula 1.b
-
-linhas de comando vai para um IDE
-há várias IDE
- traduz seus códigos para a programação 
-
-alto nivel não rpecisamos preocupar com hardware
-são mais antigas
-pensam mais no hardware
-exigem mais conhecimento
+[aulas 12.a, exercicios]
 
 
-linguagem portugal
-programa visual AlG
-
-----------
-1.c
-
-portugal é só para aprender linguagem de programação
-php é para sites
-fácil aprendizado
-
-para windows, mac, linux, robos, para qualquer um 
-java
-criada em 1995
-
-c#
-criada pela microsoft
-mais focada no windows, mesma ideia que o java
-
-cobol
-1960
-feita para aplicações comerciais
-resolução de problemas matemáticos
-bancos ainda utilizam essa linguagem
 
 
-c e c++ 
-são mais antigas
-usadas pela microsoft para criar o windows
-
-pascal e delphi criação de ferramentas para desktop
-
----
-1.d
-
-configurações de cores
-escreval() <- função para imprimir
-botão f9 executa
+Qual a realidade da programação hoje?
+Está cada vez mais fácil programar. Com a programação de alto nível não precisamos nos preocupar com hardware.
+Linguagens de alto nível exigem maior conhecimento de hardware
 
 
-----
-1.e
-exercicio com input nome e sobrenome
+
+Quais as finalidades das linguagens:
+Portugol, java, php, c#, cobol, c e c++, pascal e delphi
+
+portugol > para aprender programação
+java > multiplataforma
+php > para sites
+c# > criada pela microsoft, foco em windows
+cobol > feita para aplicações comerciais. resolução de problemas matemáticos. bancos ainda utilizam essa linguagem
+c e c++ > são mais antigas, usadas pela microsoft para criar o windows
+pascal e delphi > criação de ferramentas para desktop
 
 
-----
+1.d [imprimir algo com a linguagem]
+1.e[ input nome e sobrenome]
 
-aula 2
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 
-tipagem em linguagem de programação
-mostrando números inteiros e strings
+aula 2 [números inteiros e strings]
+aula 2.b [reais e operadores lógicos]
+2.c [calculo média e if]
+2.d elif = senão, se
+2.e vários senão, se. veículos e multas
+2.f operadores lógicos
+2.g "ou", identificando tipos de triângulos
+2.h calculo IMC
 
-
----
-
-real <- números com , no pascoal
-operador lógico <- boleano
-
----
-2.c
-calculo  média
-[ver documentalçao portugol]
-
-if = se no portugal
-fimse
-
---
-2.d
-
-elif = senão, se
-
----
-2.e
-vários senão, se
-veículos e multas
-
-----
-operador lógico < ou verdade ou mentira
-<> diferente
-= igual
-uso do E (and) dois true
-
----
-2.g
-uso do Ou
-com tipos de triangulos
---
-2.h
-
-calculo IMC
-^ <- potência 
-conceito de curto circuito [pesquisar sobre]
-não leitura de um bloco, consumindo menos memória
-
-----
-PAREI EM 2.i
+[conceito de curto circuito [pesquisar sobre]]
 
 
-operador escolher
-funciona igual o se, masé mais prático
+2.i operador escolher. Ssmilar ao se. Operador caso/outro caso
+guardar variável de visiões em tipo real
+uso do % para colher o resto de uma operação
+Descobrir se um número par ou divisivel por outro 
 
-caso, outro caso... <- trabalha só com igualdade de valores
+3.a função enquanto
+3.c exercicio FAZER
+3.d função repita + LIMPAR TELA
+3.f função para. Apresentação  das palavras reservadas
 
---
-
-divisões devemos sempre guardar em variável do tipo real
-operador DIV
-% ou mod <- ver o resto de uma operação
-assim descobre se um numerro é par ou divisivel por outro
-
-
----
-3.a
-função enquanto
-
-3.c exercicio
----
-
-3.d
-função repita
-
-enquanto roda até a lógica de operação ser veraddeira
-no repita 
-é o do while
-repeat until 
-no python eu não sei
-
-função limpatela
-
---
-
-3.e
 
 
 --
-3.f ~
-repetição com função para
-no para o i já é inicializado
-palavras reservadas são aquelas usadas na linguagem de programação
-
-para i de x ate x faca 
+3.g para reverso
+3.h aleatório
 
 
---
-
-PAREI EM 3.G
-o para é o for no python
-
-tem como fazer um para reverso com atributo passo
-pular quantas casas vocês quiser
-
-for <-  quando vc sabe quantas repetições precisa
-while <- quadno não se sabe quantas repetições serão necessárias
-
----
-3.h
-
-aleatório (n incio, n final)
-
-comando limpa tela para apagar tela
-
----
 
 LÓGICA PROGRAMAÇÃO 2
-
+1.a uso da IDE
 F5 breakpoint
 ponto inicial e final 
-
 f8 prox linha, rodar linha a linha
 f9 roda até o breakpoint
 f10 rodar até o final
 
+1.b criação de vetores 
+1.c criando um buscador usando o para (for)
+1.d desafio
+1.e Rever aula
+1.f Atv cinema com matrizes
 
 
----
+2.a variáveis locais e globais. Rever
+2.b Funções
+2.c rever
+2.d atividade cadastro de clientes
+2.e char vs string. Programa: corretor automático de provas
+3.a criando tabela mySql
+3.b inserir em banco de dados
+3.c update no banco de dados + exclusão na tabela
 
-aray/lista <- mesma coisa que vetor
-estão por de trás de 
-dicionários e listas dinamicas
-
-vetor é um tipo de variável
-ex: vetor[1..5] de literal
-vetor[1..10] de inteiro
-
----
-criando um buscador
-usando o para (for)
-
---- 
-1.d
-desafio
-aux e temp< nome comuns de variáveis que os programadores costumam colocar
-[FAZER TODAS ATIVIDADES EM UMA OUTRA LINGUAGEM QUE NÃO PYTHON]
---
-
-parei aula 1.e
-
-estrutura de dados < conteúdo complicado
-método bolha ? ultrapassado
-organizar vetores em ordem
-
-para (for) identado dentro de outro para
-
-
-----
-aula f
-
-matrizes são vetores de mais de uma dimensão
-vetor [1..10, 1..10]
-analogia com cinema
-palavra reservada caso
-
----
-aula a.a
-
-escopo variáveis> Local e global
-
-procedimento <- palavra reservada 
-função?
-variável local < só funciona dentro doprocedimento
-
----
-aula 2.b
-interessante nomear as funções no infinitivo
-
-na verdade procedimento é diferente de função
-procedimento não tem retorno, função tem
-podemos usar uma função como atributo ou dentro de outra
-
-
-
-linguagens interpretadas?
-não são todas linguagens que funcionam linha a linha
-
-
---- 
-
-aula 2.c
-
-é uma boa prática organizar o código par que o próximo consiga entende-lo
-
-ex: tipo de triangulos
-métodos <- são funções/procedimentos, termo das linguagens mais atuais
-variáveis declaradas do lado de fora no portugol são automaticamente globais
-
-
-----
-2d
-criação  de um menu com escolha
-cadastro de clientes, salvando-os em um vetor
-variáveis globais funcionam por todo código
-
-----
-2.e
-
-Observação sobre algumas linguagens
-caracter < char. Aceita só 1 caracter 
-string <- literal. Vários caracteres. Vetor de caracter
-
-programa: corretor automático de provas
-
-
----------
-3.a
-
-
-banco de dados
-
-xampp <- Softwarecom outros softwares dentro
-MySQL
-dar um start apache e mySql
-ir em admin
-
-banco de dados pode ser um arquivo texto com informações, planilhas,  xml, dat... qualquer repositório que utilizamos para guardar informações
-
-
-clickar em base de dados
-Nome __ Agrupamento (conjunto de regras) -> Criar
-Criar uma tabela
-populamos uma base de dados com várias tabelas
-A quantidade de tabelas depende da regra de negócio
-ex: Tabela de estoque, clientes...
-
-Clicar em SQL
-escrever na caixa de diálogo
-pluralizar ao escrever os componentes
-
-CREATE TABLE CLIENTES
-toda tabela precisa da chave primária, o ID
-o próprio banco de dados pode gerar um ID para você, único no sistema
-limite de caracteres e preenchimento obrigatório
-clicar em executar
-
-lado esquerdo aparecerá sua nova tabela e colunas
-
-
-----------------
-3.b
-inserindo um cliente no banco de dados
-Clicar em Inserir
-
-existe o nChar que aceita outros caracteres
-para o nosso idioma o varchar já é o suficiente
-
--------------
-
-3.c
-
-software pega as variáveis e joga para o banco de dados
-
-uso do update para substituir valores
-lembre de especificar o registro que quer atualizar, caso contrário tudo será igual ao colocado em Update
-
-Exclusão de um item na tabela
--------------------
 3.d
-
 create - cria tabela
 insert - cria registro para uma tabela
 drop - apaga uma tabela
 delete - apaga registro
 
-valores char(fixo) e varchar(variável) <- ganho de performance interna caso saiba que seu dado for fixo e tenha sempre o mesmo número de caracteres (CPF, Placa de carro)  
 
-jamais salve a idade do cliente, mas sim a data de nascimetno
-há diversos macetes para aumento de performance
-
-geralmente não excluem o cliente, só trocam de ativo para inativo
-bit <- boleano sim ou não
-
-
-query -> comando que passamos para o banco de dados
-geralmente os sistemas são integrados aos banco de dados, não necessita que o usuário saiba programar
-
-Linguagem para todosos bancos de dados
-algumas palavras reservadas diferenciam
-
------
-3.e
-
-trabalhando com multiplas tabelas e pesquisar
-e relacionando-as
-
-produtos exigem unidades de medida 
-referenciar o ID para relacionar
-foreign key <- para relacionar duas tabelas
-
-não tem como apagar uma tabela com registros filhos linkados.
-
-----
+3.e foreign key <- para relacionar duas tabelas
 3.f (rever)
-tabela associativa
+3.g inner join,  unir + filtros
+3.h operações pelo SQL. Simualação mercado. Ordernar + grupo
+4.a o.o criação cadastro cliente
+4.b menu com cadastro de cliente utilizando objetos
+4.c heranças + polimofismo
 
-lista de produtos
-
-tabelascriadas:
-produto, venda e itens_vendas(só tem números)
-primaryKey composta <- não permitindo a venda de um mesmo ID venda com um ID não pode repetir ao mesmo tempo
-
-Chaves estrangeiras -> vindaas de outras tabelas
-
- 
-
-----
-3.g
-
-pesquisa no banco de dados em duas tabelas diferentes
-inner join,  unir 
-definir relação entre esssas tabelas
-apostafro permite renomear uma coluna 
-
-dá para criar filtros pela caixa de código
-
-where p.preco <10 or p.qtd >10
-
-----
-3.h
-
-multiplicando usando o SQL
-calculando total das vendas 
-
-[simular um mercado]
-
-contar quantidade de registro por categoria
-uso do count  + group by 
-
-order by para ordernar 
-
-
-----
-Aula 4.a
-
-Orientação a objetos
-
-difeerente da programação estruturada
-criação cadastro cliente
-
----
-Aula 4.b
-
-menu com cadastro de cliente utilizando objetos
-
---
-Aula 4.c
-
-heranças
-mesma ideia do pinguin/galinha que são aves
-
-polimofismo
-fução que aceita como entrada PAI, podendo se comportar conforme o filho
-
-em chama se chama Classes
 
 --------------------
 
 LÓGICA DE PROGRAMAÇÃO 3
 
-ementa bem densa
 
---- 
-aula 03
+3.a
 baixar
 JAVA SE development kit 8 (JDK) <- p/ desenvolvimento
-JRE já temos na máquina, mas só serve para leitura
-
-no curso se utiliza o 8
 dar next até o final no JDK
-
-baixar o netbeans (tudo next) <- ferramenta de desenvolvimento
+baixar o netbeans (tudo next) 
 XAMPP(conjunto de ferramentas) <- para trabalhar mySQL e apache
 
 
 
 
----
-4.a 
+
+Observações sobre java
 a mais ultilizada
 criação anos 90 
-criada para desenvolver eletrônicos, geladeiras
-em 95
-começaram a utilizar para aplicação web
-
 multiplataforma
-extensão .java
-após copilar gera um código intermediário, o byteCode, que é executado pelo JVM 
-todos computadores possuem o JRE, 
+Robusta, possui vários recursos
 
-Robusta, vários recursos
-
----
-
-4.b
-
-IDE são ferramentas de desenvolvimento
-net beans permite image drop, facilita na criação gráfica
-
----
-4.c
-
-[gerenciadores de dependência?]
-java maven, grade, ant
+Como funcionar o java?
+após copilar gera um código intermediário, o byteCode, que é executado pelo JVM. Todos computadores possuem o JRE, 
 
 
-como criar um projeto no netbeans
+Qual a vantagem do net beans?
+permite image drop, facilita na criação gráfica
 
-main no java:
-ponto de partida de execução do algoritimo
-tudo dentro das chaves será executado primeiro
-é o inicio e fim do programa
 
-comando para print 
 
+
+
+Cuidados ao programar em java:
 java é case sensitive, devemos respeitar maiusculas e minusculas
 
-f6 para rodar o programa
+
+Comando para rodar programa no netbeans:
+f6
+
 
 ---
 4.d
-
-3possibilidades de comentários
-
+3 possibilidades de comentários
 em linha - //
 comentário de bloco (várias linhas) /* TEXTO AQUI */
-
-
 documentação, facilitar para os demais  /** */, tudo gerado neste tipo de comentário podemos exportar para consulta
 
-
-consulte a documentação de java
 
 
 --
 4.e
-
 importação biblioteca
 import java.util.Scanner
-
 System.in ?
 next e nextLine
 
@@ -904,7 +501,7 @@ next e nextLine
 println vs print
 
 --
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 4.f
 
 variáveis primitivas e não primitivas
@@ -1340,5 +937,5 @@ FAZER ATIVIDADES E APÓS TERMINO VOLTAR COM VÍDEOS
 
 
 
-
+[separar anotações para CSV]
 
