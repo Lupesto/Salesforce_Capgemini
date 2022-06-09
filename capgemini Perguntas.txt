@@ -1,3 +1,121 @@
+ATIVIDADES
+1.d [imprimir algo com a linguagem]
+1.e[ input nome e sobrenome]
+aula 2 [números inteiros e strings]
+aula 2.b [reais e operadores lógicos]
+2.c [calculo média e if]
+2.d elif = senão, se
+2.e vários senão, se. veículos e multas
+2.f operadores lógicos
+2.g "ou", identificando tipos de triângulos
+2.h calculo IMC
+
+2.i operador escolher. Ssmilar ao se. Operador caso/outro caso
+guardar variável de visiões em tipo real
+uso do % para colher o resto de uma operação
+Descobrir se um número par ou divisivel por outro 
+
+3.a função enquanto
+3.c exercicio FAZER
+3.d função repita + LIMPAR TELA
+3.f função para. Apresentação  das palavras reservadas
+3.g para reverso
+3.h aleatório
+
+
+LÓGICA PROGRAMAÇÃO 2
+1.a uso da IDE
+F5 breakpoint
+ponto inicial e final 
+f8 prox linha, rodar linha a linha
+f9 roda até o breakpoint
+f10 rodar até o final
+
+1.b criação de vetores 
+1.c criando um buscador usando o para (for)
+1.d desafio
+1.e Rever aula
+1.f Atv cinema com matrizes
+
+
+2.a variáveis locais e globais. Rever
+2.b Funções
+2.c rever
+2.d atividade cadastro de clientes
+2.e char vs string. Programa: corretor automático de provas
+3.a criando tabela mySql
+3.b inserir em banco de dados
+3.c update no banco de dados + exclusão na tabela
+
+3.d
+create - cria tabela
+insert - cria registro para uma tabela
+drop - apaga uma tabela
+delete - apaga registro
+[aulas 12.a, exercicios]
+
+3.e foreign key <- para relacionar duas tabelas
+3.f (rever)
+3.g inner join,  unir + filtros
+3.h operações pelo SQL. Simualação mercado. Ordernar + grupo
+4.a o.o criação cadastro cliente
+4.b menu com cadastro de cliente utilizando objetos
+4.c heranças + polimofismo
+4.d
+3 possibilidades de comentários
+em linha - //
+comentário de bloco (várias linhas) /* TEXTO AQUI */
+documentação, facilitar para os demais  /** */, tudo gerado neste tipo de comentário podemos exportar para consulta
+
+4.e
+importação biblioteca
+import java.util.Scanner
+System.in ?
+next e nextLine
+
+4.i switch (escolha caso) [práticar]
+permite opções conforme o valor de uma variável
+exige case e break
+default - caso valor não exista
+
+4.j lista de exercícios
+4.n  exercício 24 lista
+criar programa input número e responde se ele é zero ou não
+4.o e 4.p exercício 22
+4.k estrutura do for 
+4.m  while. uso nextInt?
+4.h if e else
+4.s calculando imc com poo
+4.t criando objeto (pacotes)
+4.u aplicar principio de encapsulamento
+4.v Criação do construtor. uso do this.
+4.w uso de heranças
+4.x criando classe para usar herança
+4.y uso do super() e this.
+5.a exercício 20 da lista
+5.b melhorias para o exercício 20
+6.a exercício 4
+6.b melhorias solução exercício 4
+7.b apresentação da interface na IDE
+7.e programação orientada a eventos
+7. fazer todas etapas para interface
+7. g redimensionamento de componentes
+9.a, B e c criando tabela com interface phpMyAdmin
+10.b Construtores, getters e  setters do  model
+10.c IMPORTANTE conectando java com banco de dados CONFIGURAÇÃO
+10.D apresentação do método para fazer conexão
+10.e tratamento de exceção
+10.f closeConection
+11.a classes que buscam no banco de dados e trazem informações
+11.b O que é uma seção crítica?
+seção passivel de erro, precisamos colocar try e catch
+11.c criação método save
+11.d método para crirar tarefa
+
+
+
+
+
 [TRILHAS]
 Qual a trilha obrigatória?
 todas trilhas tem como inicial a de lógica
@@ -157,7 +275,6 @@ software são intaginveis
 hardware é tangível
 
 
-
 O que compõe o hardware?
 dispositivos de entrada, saida, componentes internos e dispositivos de armazenamento secundário
 
@@ -192,7 +309,6 @@ HD, salvo por tempo indeterminado
 lenta e barata
 
 
-
 O que é a bios?
 programa para carregar o sistema operacional, ela serve para dar boot
 
@@ -207,9 +323,6 @@ ssd, circuito eletrônico,
 Qual principal motivo do pc estar lento?
 pc lento pode ser culpa do hd pois é mecânico
 
->>>>>>>>>>>>>>>>>
-----
-Aula 5.a
 
 O que é um software?
 conjunto de instruções para que o computador execute determinada tarefa
@@ -292,18 +405,12 @@ lei da funcionalidade
 proposições menores que podem dar valores lógicos as compostas
 
 
-
-
-
 O que é tabela verdade
 auxilia o raciocinio humano, representando proposições compostas uso do p e q, interligando com operadores
 
 
-
 Em proposição, quais os operadores lógicos?
 negação, conjunção e disjunção
-
-
 
 Proposição: negação
 inverter valor proposição 
@@ -318,9 +425,6 @@ um verdadeiro e outro falso
 
 
 
-
-
-
 Como resolver um problema com algoritimos? 
 ter um bom entendimento do problema
 observação: passar pelo problema direto para codificação gerará outro problema.
@@ -330,21 +434,15 @@ O que é pseudo código?
  escrever em linguagem natural o que o algoritimo fará, depois passamos para fluxogramas 
 
 
+
+
 [ver formas para um fluxograma]
-
-
 
 
 
 Quais as 3 fases ao desenvolver uma solução?
 precisamos dividir o problema em 3 fases fundamentais
 entrada, processamento e saída
-
-
-
-[aulas 12.a, exercicios]
-
-
 
 
 Qual a realidade da programação hoje?
@@ -365,79 +463,7 @@ c e c++ > são mais antigas, usadas pela microsoft para criar o windows
 pascal e delphi > criação de ferramentas para desktop
 
 
-1.d [imprimir algo com a linguagem]
-1.e[ input nome e sobrenome]
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-
-aula 2 [números inteiros e strings]
-aula 2.b [reais e operadores lógicos]
-2.c [calculo média e if]
-2.d elif = senão, se
-2.e vários senão, se. veículos e multas
-2.f operadores lógicos
-2.g "ou", identificando tipos de triângulos
-2.h calculo IMC
-
 [conceito de curto circuito [pesquisar sobre]]
-
-
-2.i operador escolher. Ssmilar ao se. Operador caso/outro caso
-guardar variável de visiões em tipo real
-uso do % para colher o resto de uma operação
-Descobrir se um número par ou divisivel por outro 
-
-3.a função enquanto
-3.c exercicio FAZER
-3.d função repita + LIMPAR TELA
-3.f função para. Apresentação  das palavras reservadas
-
-
-
---
-3.g para reverso
-3.h aleatório
-
-
-
-LÓGICA PROGRAMAÇÃO 2
-1.a uso da IDE
-F5 breakpoint
-ponto inicial e final 
-f8 prox linha, rodar linha a linha
-f9 roda até o breakpoint
-f10 rodar até o final
-
-1.b criação de vetores 
-1.c criando um buscador usando o para (for)
-1.d desafio
-1.e Rever aula
-1.f Atv cinema com matrizes
-
-
-2.a variáveis locais e globais. Rever
-2.b Funções
-2.c rever
-2.d atividade cadastro de clientes
-2.e char vs string. Programa: corretor automático de provas
-3.a criando tabela mySql
-3.b inserir em banco de dados
-3.c update no banco de dados + exclusão na tabela
-
-3.d
-create - cria tabela
-insert - cria registro para uma tabela
-drop - apaga uma tabela
-delete - apaga registro
-
-
-3.e foreign key <- para relacionar duas tabelas
-3.f (rever)
-3.g inner join,  unir + filtros
-3.h operações pelo SQL. Simualação mercado. Ordernar + grupo
-4.a o.o criação cadastro cliente
-4.b menu com cadastro de cliente utilizando objetos
-4.c heranças + polimofismo
 
 
 --------------------
@@ -445,7 +471,6 @@ delete - apaga registro
 LÓGICA DE PROGRAMAÇÃO 3
 
 
-3.a
 baixar
 JAVA SE development kit 8 (JDK) <- p/ desenvolvimento
 dar next até o final no JDK
@@ -453,10 +478,7 @@ baixar o netbeans (tudo next)
 XAMPP(conjunto de ferramentas) <- para trabalhar mySQL e apache
 
 
-
-
-
-Observações sobre java
+Observações sobre java:
 a mais ultilizada
 criação anos 90 
 multiplataforma
@@ -470,9 +492,6 @@ Qual a vantagem do net beans?
 permite image drop, facilita na criação gráfica
 
 
-
-
-
 Cuidados ao programar em java:
 java é case sensitive, devemos respeitar maiusculas e minusculas
 
@@ -481,337 +500,157 @@ Comando para rodar programa no netbeans:
 f6
 
 
----
-4.d
-3 possibilidades de comentários
-em linha - //
-comentário de bloco (várias linhas) /* TEXTO AQUI */
-documentação, facilitar para os demais  /** */, tudo gerado neste tipo de comentário podemos exportar para consulta
+println vs print:
 
-
-
---
-4.e
-importação biblioteca
-import java.util.Scanner
-System.in ?
-next e nextLine
-
-
-println vs print
-
---
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-4.f
-
-variáveis primitivas e não primitivas
+variáveis primitivas e não primitivas:
 primitivas - valores simples (criadas no inicio da linguagem)
-não primitivas - valores mais compplexos
+não primitivas - valores mais complexos
 
-para criar uma variável:
+
+Como criar variável no java?
 dizer o tipo dela e dar o nome
 
+Em que parte do código devemos declarar as variáveis?
 podemos declarar as variáveis em qualquer parte do java
 
-tipos de variáveis
-int, float, double, char (aspas simples), byte, boolean
+
+Quais os tipos de variáveis no java?
+int, float, double, char (aspas simples), byte, boolean, string (aspas duplas)
 
 
-string (aspas duplas)
+Como encontrar resto divisão com java?
+usar %
 
-resto divisão usar %
-Ordem dos operadores é válida em java
+operadores relacionais:
+(>, >= ...) 
 
+lógicos :
+(&&, !(and, or)
 
----
-4.h if e else
+if aninhados:
+[fazer]
 
-operadores relacionais (>, >= ...) e lógicos (&&, !(and, or)
+Comando autocomplete no netbeans:
+ctrl + espaco
 
-if aninhados
-
----
-4.i
-
-switch (escolha caso)
-permite opções conforme o valor de uma variável
-exige case e break
-
-default - caso valor não exista
+comando quebrar código no netbeans:
+alt+shift 
 
 
----
-4.j
+O que é decrementar? 
+reduzir
 
-lista de exercícios
-
-autocomplete - ctrl + espaco
-input com system in
---- 
-4.k
-
-estrutura do for 
-
-
---
-4.m 
-while 
-
-uso nextInt?
-manipulação string
-
-alt+shift para quebrar código
-
-decrementar = reduzir
-
-
----
-4.n 
-
-
-exercício 24 lista
-em netbeans criar arquivo java with grade
-criar programa input número e responde se ele é zero ou não
-
-scanner.next
-.charAT(0)
-uso do while
-
-
----
-4.o e 4.p
-
-uso do for
-exercício 22
-
-.nextFloat
-
-habilitando utf-8 netbeans
-c: /netbeans/etc/netbeans.conf 
-adicionar linha em netbeans_default_options:
--J-Dfile.encoding=UTF-8"
-
---
-4q
-
-poo
+Qual surgiu a programação orientada a objetos?
 surgimento final anos 60
-antes resolvia-se de maneira estruturada 
-
-pilares: Polimorfismo, herança, abstração, Encapsulamento
-
-abstração- ver a entidade no mundo real, selecionar informações para utilização no algoritimo
-
---
-4r
-
-na programação estruturada tinhamos
-Dados globais <- Procedimentos
-
-Na poo temos
-Dados do objeto, cada um dos objetos com seus métodos
 
 
+antes da p.o.o como era a programação?
+de maneira estruturada 
+
+
+Quais os pilares da p.o.o?
+Polimorfismo, herança, abstração, Encapsulamento
+
+
+O que é abstração em programação?
+ver a entidade no mundo real, selecionar informações para utilização no algoritimo
+
+
+Diferença nos dados na programação estruturada e orientada a objetos?
+na p.o.o cada objeto possuí seus métodos
+na estruturada os procedimentos são globais
+
+
+Como devemos nomear as classes?
 classe deve ter o nome da entidade que ela está representando
-na class colocamos informações essenciais para resolução do problema
+Pensar nas informações essenciais para resolução do problema
 ex no imc: Peso e pessoa
 
---
-4.s
-calculando imc com poo
-criando método
-retorno de valor
+
+Boa prática ao criar um método no java:
 colocar nome do método no infinitivo
 
---
-4.t
-criando objeto
-classe estando em outro arquivo
 
---
-4.u 
-
-principio de encapsulamento
+O que é o principio de encapsulamento?
 O objeto gerenciando suas informações
  
+No java por padrão os atributos são o quê?
 por padrão os atributos são públicos
-torna-los private
 
 métodos acessores
 criando método de acesso para setar as variáveis 
 
+O que é o método construtor?
+é o inicializador, funciona assim que é chamado
 
---
-4.v 
-método construtor (é o inicializador)
-regra de nomeação no infinitivo não se aplica a eles
-
-funciona assim que é chamado
-
-parametros <- pede no inicio do método
-uso do this.
-
---
-
-4.w
-uso de heranças
-
-alt + insert - gerar variáveis, construtor... mais praticidade
-
-informações em comum. Heranças permite a redução de código redundante.
+O que são parâmetros?
+Dados que o método pode pedir na hora que o chamamos
 
 
-----
-4.x
+Comando para gerar construtor mais fácil no netbeans:
+alt + insert. Tb para criar getters e setters
 
+
+Quando usamos as heranças?
+Quando há informações em comum entre os métodos. Heranças permite a redução de código redundante.
+
+
+
+
+[fase de moldagem antes do desenvolvimento]
 antes do desenvolvimento há uma fase de modelagem [pesquisar sobre]
 
-Criando uma classe mais generalista para abranger dois tipos de funcionários (vendedor e motorista) com funções diferentes, mas com informações semelhantes 
 
-Como chamar?
+Como extender uma classe no java?
 public class Vendedor extends Funcionário {
 
-
-pq ele usou super() no extends? [pesquisar]
-
----
-
-4.y
-estando em baixo para pegar o atributo da classe acima, classe superior ->
-usar o super();
-this. <- pegar atributos desta classe
-
----
-
-5.a
-
-Faça exercícios, pratique
-
-Cada exercício em um projeto
-exercício 20 da lista
-
----
-5.b
-melhorias para o exercício 20
-
-uso do char em um if para parar uma repetição 
-"s"
-charAT()<- problema é que qualquer palavra com inicial s é aceita
-
---
-6.a
-exercício 4
-usando construtor, this, if, criando a classe...
-getters e setters <- ainda não introduziu sobre [pesquisar + prática]
-
----
-6.b
-melhorias solução exercício 4
-[variável do tipo double]
-
-melhor lugar para validar dados é no setters 
+[uso do super()]
 
 
---
-7.a
-Construção interface gráfica
-interação com usuário
+Para que serve o super()?
+pegar atributos da classe acima
 
-Ementa da aula
-tente replicar uma interface da internet [práticar]
-
---
-
-7.b
-
-jFram form <- para criar tela
-no netbeans é só clicar e arrastar os componentes
-
-apresentação da interface na IDE
-preview design, parte do source, menus, botões,
-
-existem duas interfaces java 
-Swing e AWT(parecidas com as telas do windows 98) 
-
-No navigator apresenta os componentes na tela
-
----
-
-7.c
-apresentação dos elementos para criação de interface
-customização da interface nas propriedaes
----
-7.d
-
-propriedades
-Só arrastar
-Borda, cor, background, fonte, 
+para que serve o this.?
+Pegar atributos da classe atual
 
 
---
-7.e
 
-uso de eventos
+
+[tente replicar uma interface da internet [práticar]]
+
+
+Em netbeans, qual a diferença das interfaces Swing e AWT?
+swing <- janelas mais atuais
+AWT <- interface parecidas com as telas do windows 98
+
+
+O que são eventos na criação de interface?
 ações no software conforme as interações
-mesma janela de propriedades tem a  aba de eventos
-
-programação orientada a eventos
-ao clickar no evento a IDE vai te jogar para dentro do método, lá você pode escrever o tipo de mensagem que gerará ao acionar evento
 
 
----
+Em construção de interface, como tornar os componentes responsivos?
+ativar opção de auto resizing no netbeans
 
-7.f
 
-arvore - hierarquia dos componentes
-no navigator conseguimos ver a arvore
-espécie de camadas
-Renomear componentes visuais
 
---
-7. g
-no desktop também há preocupações quanto a responsividade
+no netbeans é possível evitar o redimensionamento de tela, mas qual o problema?
+Limita o uso do usuário e pode haver problemas de visualização com o montior
 
-redimensionamento de componentes
-ativar opção de auto resizing
-----
 
-7.h
 
-lista de exercícios para interfaces
-reecriando uma interface
----
+Qual a primeira coisa a se fazer ao construir um software?
+especificar bem a ideia. Detalhar tudo que o software será capaz de fazer
 
-7.i
-continuação cópia interface
-escolhendo conjunto de bordas em uma janela
-
---
-
-7.j
-
-responsividade
-pode evitar o redimensionamento de tela
-o uso deve ser ponderado, pois limita o uso do usuário e visualização por conta do monitor
-
-----
-
-8.a e 8.b
-
-construção de um software completo
-integração de todos os conhecimentos aprendidos até agora
-
-1º coisa a se fazer é especificar bem a ideia
-tudo que o software será capaz de fazer
-
-[importante]
+Etapas para incio de projeto:
 Inicio de um projeto
 	definição de um projeto básico
 		Colocar descrição, objetivo, nome,
+	
 	requisitos do projeto
 		quais entidades(classes e seus atributos), funcionalidades, 
+	
 	regras de negócio
-		regrasque o sistema deve seguir (ex: não ter login), 		validar um cpf em uma base de dados)
+		regras que o sistema deve seguir (ex: não ter login), validar um cpf em uma base de dados)
 
 	definição da tecnologia
 		java
@@ -821,121 +660,21 @@ Inicio de um projeto
 
 
 
-O que será?
-aplicativos de tarefas (todo list)
-
+Quais etapas para a construção de um programa?
 descrição> Gerenciamento de projeto e tarefas
 
-
-
-----
-
-9.a e B e c
-instalação xamp e criação tabelas 
-criando usando a interface do phpMyAdmin
-tabela de tarefas e projetos
-
-
-seguindo as especificações
-
-SQL pela interface <- seguir
-
-
----
-9.d
-prototipos de interface
-ferramentas de prototipagem
-importante pois o desenvolvimento sem o netbeans é demorado
-
-apresentação de sites, banco de imagens, ferramentas de prototipagem
-
-
----
-10.a 
-
-MVC (model,view controller)
+O que é MVC?
+padrão de projeto. MVC (model,view controller)
 que reprentam as atividades(tarefas, projetos), view, controladores
 
-existem vários padrõesde projetos
-
-um pacote para cada um dos modes
-
-Construtores, getters e  setters do controller
----
-10.b
-Construtores, getters e  setters do  model
 
 
----
-
-10.c IMPORTANTE
-lista com etapas do desenvolvimento
-
-conectando java com banco de dados CONFIGURAÇÃO
-precisamos do jbdc
-JBDC é um pacote dependente
-sessão dependências
-buscar por mysql-connector-java gradle
-no site mvnrepository encontramos dependencias que não possuímos
-
----
-10.D
-apresentação do método para fazer conexão
+Site para encontrar dependências que não possuímos:
+mvnrepository
 
 
---
-10.e
-
-tratamento de exceção
-
-com try e catch 
-colocar bloco de código e possíveis soluções/mensagem de erro caso ocorra
-
----
-10.f
-closeConection
-
-fechamento de conexão
-
-conectando e fechando conexão no main
----
-11.a
-classes que buscam no banco de dados e trazem informações
-métodos: save, update, remove, getall
-dentro dos métodos colocamos os comandos SQL
+Em SQL o que é um campo auto_increment?
+valor gerado aleatório, serve para identificar linha 
 
 
----
-
-11.b
-seção critica = passivel de erro <- precisamos colocar try e catch
-criação do método remove pelo ID
-bloco finally dentro de try
-
-
-----
-11.c
-criação método save
-campo Id não precisamos colocar no código pois é auto_increment
-
----
-11.d
-[definição método construtor]
-método para crirar tarefa
-[qual a importância de fechar a conexão com o banco de dados?]
-
---
-11.e
-
-
-
---
-11.f
-update
-
-FAZER ATIVIDADES E APÓS TERMINO VOLTAR COM VÍDEOS
-
-
-
-[separar anotações para CSV]
 
