@@ -1,24 +1,24 @@
 ATIVIDADES
 1.d [imprimir algo com a linguagem]
-1.e[ input nome e sobrenome]
+1.e[input nome e sobrenome]
 aula 2 [números inteiros e strings]
 aula 2.b [reais e operadores lógicos]
-2.c [calculo média e if]
+2.c [cálculo média e if]
 2.d elif = senão, se
 2.e vários senão, se. veículos e multas
 2.f operadores lógicos
 2.g "ou", identificando tipos de triângulos
-2.h calculo IMC
+2.h cálculo IMC
 
-2.i operador escolher. Ssmilar ao se. Operador caso/outro caso
-guardar variável de visiões em tipo real
+2.i operador escolher. Similar ao se. Operador caso/outro caso
+guardar variável de visões em tipo real
 uso do % para colher o resto de uma operação
-Descobrir se um número par ou divisivel por outro 
+Descobrir se um número par ou divisível por outro 
 
 3.a função enquanto
-3.c exercicio FAZER
+3.c exercício FAZER
 3.d função repita + LIMPAR TELA
-3.f função para. Apresentação  das palavras reservadas
+3.f função para. Apresentação das palavras reservadas
 3.g para reverso
 3.h aleatório
 
@@ -52,15 +52,15 @@ create - cria tabela
 insert - cria registro para uma tabela
 drop - apaga uma tabela
 delete - apaga registro
-[aulas 12.a, exercicios]
+[aulas 12.a, exercícios]
 
 3.e foreign key <- para relacionar duas tabelas
 3.f (rever)
 3.g inner join,  unir + filtros
-3.h operações pelo SQL. Simualação mercado. Ordernar + grupo
+3.h operações pelo SQL. Simulação mercado. Ordenar + grupo
 4.a o.o criação cadastro cliente
 4.b menu com cadastro de cliente utilizando objetos
-4.c heranças + polimofismo
+4.c heranças + polimorfismo
 4.d
 3 possibilidades de comentários
 em linha - //
@@ -73,13 +73,13 @@ import java.util.Scanner
 System.in ?
 next e nextLine
 
-4.i switch (escolha caso) [práticar]
+4.i switch (escolha caso) [praticar]
 permite opções conforme o valor de uma variável
 exige case e break
 default - caso valor não exista
 
 4.j lista de exercícios
-4.n  exercício 24 lista
+4.n exercício 24 lista
 criar programa input número e responde se ele é zero ou não
 4.o e 4.p exercício 22
 4.k estrutura do for 
@@ -87,7 +87,7 @@ criar programa input número e responde se ele é zero ou não
 4.h if e else
 4.s calculando imc com poo
 4.t criando objeto (pacotes)
-4.u aplicar principio de encapsulamento
+4.u aplicar princípio de encapsulamento
 4.v Criação do construtor. uso do this.
 4.w uso de heranças
 4.x criando classe para usar herança
@@ -98,19 +98,19 @@ criar programa input número e responde se ele é zero ou não
 6.b melhorias solução exercício 4
 7.b apresentação da interface na IDE
 7.e programação orientada a eventos
-7. fazer todas etapas para interface
+7. fazer todas as etapas para interface
 7. g redimensionamento de componentes
 9.a, B e c criando tabela com interface phpMyAdmin
-10.b Construtores, getters e  setters do  model
+10.b Construtores, getters e setters do model
 10.c IMPORTANTE conectando java com banco de dados CONFIGURAÇÃO
 10.D apresentação do método para fazer conexão
 10.e tratamento de exceção
 10.f closeConection
 11.a classes que buscam no banco de dados e trazem informações
 11.b O que é uma seção crítica?
-seção passivel de erro, precisamos colocar try e catch
+seção passível de erro, precisamos colocar try e catch
 11.c criação método save
-11.d método para crirar tarefa
+11.d método para criar tarefa
 
 
 
@@ -118,15 +118,15 @@ seção passivel de erro, precisamos colocar try e catch
 
 [TRILHAS]
 Qual a trilha obrigatória?
-todas trilhas tem como inicial a de lógica
+todas as trilhas tem como inicial a de lógica
 
 Quais as Trilhas?
 trilhas: Java, servicenow, salesForce, cloud
 
 
-Para que serve o servicenow?
+Para que serve o serviceNow?
 era para gestão de serviços empresariais
-plataforma lider no ramo
+plataforma líder no ramo
 automatização de negócios
 relacionamento de clientes/gerenciamento
 
@@ -136,9 +136,9 @@ uma nova versão a cada 6 meses
 
 
 Para que serve o Salesforce?
-é um crm. gerenciamento de clientes
+É um crm. gerenciamento de clientes
 informações sobre o cliente
-gere a experiencia do cliente ocm a máquina
+gere a experiencia do cliente com a máquina
 personaliza o atendimento ao cliente
 
 
@@ -164,14 +164,14 @@ tudo com salesforce atrás para entender o cliente, pensando na probabilidade de
 
 
 Vantagem em usar o SalesForce:
-o atendimento não perguntará sobre as mesma coisas, pois já terão essas informações
+o atendimento não perguntará sobre as mesmas coisas, pois já terão essas informações
 
 
 
 Etimologia computador:
 computador vem da palavra computar, máquina calcular
 
-Qual foi  o primeiro computaador?
+Qual foi o primeiro computador?
 ábaco, século 5
 
 Primeiros computadores:
@@ -179,7 +179,7 @@ Leibniz
 
 
 Roda de leibniz:
-Primeiro sistema de númeração binário
+Primeiro sistema de numeração binário
 
 Primeira máquina mecânica programável:
 Máquina de libenz, feita pelo matemático Jacquard
@@ -192,11 +192,11 @@ fundador da lógica matemática,
 
 
 Charles babbage 
-criação da máquina analitica com memorias e programas, século 19
+criação da máquina analítica com memorias e programas, século 19
 
 
 Como eram os computadores bem antigamente?
-antes os computadores eram mecânicos, hoje são eletronicos
+antes os computadores eram mecânicos, hoje são eletrônicos
 
 
 
@@ -213,7 +213,7 @@ Quais os períodos do computador?
 4 geração 1975 - até hoje
 
 Característica da primeira geração computadores:
-circuitos e valvulas eletrônicas, 
+circuitos e válvulas eletrônicas, 
 uso restrito
 imenso consumo de energia
 
@@ -223,21 +223,21 @@ primeira.
 
 
 Curiosidade sobre o ENIAC:
-Possuia 200 quilowatts e 19mil válvulas
+Possuía 200 quilowatts e 19mil válvulas
 ocupava 1 andar de um prédio
 
 Característica da segunda geração computadores:
 ainda grandes
-transitores substituindo as valvulas
+transistores substituindo as válvulas
 uso comercial dos computadores
 
 
 
 Característica da terceira geração computadores:
-circuitos integrados substituindo os transitores
+circuitos integrados substituindo os transistores
 redução de tamanho
 criação chips 
-inicio dos computadores pessoais
+início dos computadores pessoais
 maior capacidade de armazenamento
 popularização
 
@@ -255,10 +255,10 @@ lógica no mundo
 Surgimento da lógica?
 Não surgiu, sempre existiu
 
-Foi descoberta por aristoteles
+Foi descoberta por Aristóteles
 
 
-Caracteristica de uma frase lógica:
+Característica de uma frase lógica:
 pode não ser verdade, mas a lógica de uma frase deve ser verdadeira
 
 
@@ -267,16 +267,16 @@ george boole
 
 Reflexões sobre a inteligência artificial:
 Já nos anos 60 acreditavam nessa possibilidade
-o raciocinio humano é complexo
+o raciocínio humano é complexo
 
 
 Diferença entre Hardware e software:
-software são intaginveis
+software são intangíveis
 hardware é tangível
 
 
 O que compõe o hardware?
-dispositivos de entrada, saida, componentes internos e dispositivos de armazenamento secundário
+dispositivos de entrada, saída, componentes internos e dispositivos de armazenamento secundário
 
 
 O que compõe o software?
@@ -284,12 +284,12 @@ software de sistema (sistema operacional) e software de aplicativo
 
 Observações hardware e software:
 hardware não pode ser atacado por vírus, software sim
-falha do harware é aleatória, aumenta com o tempo. 
+falha do hardware é aleatória, aumenta com o tempo. 
 Software é sistemático e não muda com o tempo.
 
 
 O que todo computador possui?
-todos possuem memória ram, processador, HD, fonte, monitor, placa mãe
+todos possuem memória Ram, processador, HD, fonte, monitor, placa mãe
 
 
 Para que serve a placa mãe?
@@ -297,7 +297,7 @@ placa mãe serve para interligar tudo. Possui várias camadas com caminhos de fi
 
 
 Para que serve o processador?
-faz todos os calculos do computador
+faz todos os cálculos do computador
 
 
 memórias primárias:
@@ -309,12 +309,12 @@ HD, salvo por tempo indeterminado
 lenta e barata
 
 
-O que é a bios?
+O que é a Bios?
 programa para carregar o sistema operacional, ela serve para dar boot
 
 
 Como parece o HD?
-parece uma vitrola, com vários discos, lento  e mecânico
+parece uma vitrola, com vários discos, lento e mecânico
 
 Como é o ssd?
 ssd, circuito eletrônico, 
@@ -326,7 +326,7 @@ pc lento pode ser culpa do hd pois é mecânico
 
 O que é um software?
 conjunto de instruções para que o computador execute determinada tarefa
-cada parte do hardware tem um software especifico
+cada parte do hardware tem um software específico
 
 
 O que é um software de aplicativo?
@@ -346,12 +346,12 @@ escrita do código em uma linguagem > Copilador traduz para assembly > Traduçã
 
 
 
-Que tipo de códgio o prcessador consegue entender?
+Que tipo de código o processador consegue entender?
 código objeto -> código de máquina
 
 
 O que é assembly?
-linguagem de baixo nível, dificil de se entender
+linguagem de baixo nível, difícil de se entender
 
 
 Qual a função do browser?
@@ -366,15 +366,15 @@ interpretador, responsável por executar nosso código
 [linguagem interpretada]
 
 
-Processo no computador para executar um softwae:
+Processos no computador para executar um softwae:
 depende da interação hardware e software
-os dispositivos conversam com o processador que pega no hd os arquivos do programa depois manda as informações para a memoria ram
+os dispositivos conversam com o processador que pega no hd os arquivos do programa depois mandam as informações para a memória ram
 
 
 
-O que é um algoritimo?
-algoritimo, sequencia de ações
-periodo de tempo finito
+O que é um algoritmo?
+algoritmo, sequência de ações
+período de tempo finito
 Resultados esperados e bem definidos
 antecipar falhas
 claro
@@ -391,12 +391,12 @@ verdadeira ou falsa
 
 
 
-O que é algebra boolena / lógica matemática?
-george boole. Utiliza simbolos e operações algebricos para representar proposições, escreve proposições com matemática
+O que é álgebra boolena / lógica matemática?
+george boole. Utiliza símbolos e operações algébricos para representar proposições, escreve proposições com matemática
 
 
 Lei fundamental das proposições:
-Ou é verdeira ou falsa
+Ou é verdadeira ou falsa
 
 Em proposição, leis:
 lei da contradição:
@@ -406,7 +406,7 @@ proposições menores que podem dar valores lógicos as compostas
 
 
 O que é tabela verdade
-auxilia o raciocinio humano, representando proposições compostas uso do p e q, interligando com operadores
+auxilia o raciocínio humano, representando proposições compostas uso do p e q, interligando com operadores
 
 
 Em proposição, quais os operadores lógicos?
@@ -416,7 +416,7 @@ Proposição: negação
 inverter valor proposição 
 
 Proposição: conjunção
-todas as partes verdadeiros para a sentença ser verdadeira
+todas as partes verdadeiras para a sentença ser verdadeira
 
 
 Proposição: disjunção
@@ -425,13 +425,13 @@ um verdadeiro e outro falso
 
 
 
-Como resolver um problema com algoritimos? 
+Como resolver um problema com algoritmos? 
 ter um bom entendimento do problema
 observação: passar pelo problema direto para codificação gerará outro problema.
 
 
-O que é pseudo código?
- escrever em linguagem natural o que o algoritimo fará, depois passamos para fluxogramas 
+O que é pseudocódigo?
+ escrever em linguagem natural o que o algoritmo fará, depois passamos para fluxogramas 
 
 
 
@@ -463,7 +463,7 @@ c e c++ > são mais antigas, usadas pela microsoft para criar o windows
 pascal e delphi > criação de ferramentas para desktop
 
 
-[conceito de curto circuito [pesquisar sobre]]
+[conceito de curto-circuito [pesquisar sobre]]
 
 
 --------------------
@@ -479,13 +479,13 @@ XAMPP(conjunto de ferramentas) <- para trabalhar mySQL e apache
 
 
 Observações sobre java:
-a mais ultilizada
+a mais utilizada
 criação anos 90 
 multiplataforma
 Robusta, possui vários recursos
 
 Como funcionar o java?
-após copilar gera um código intermediário, o byteCode, que é executado pelo JVM. Todos computadores possuem o JRE, 
+após copilar gera um código intermediário, o byteCode, que é executado pelo JVM. Todos os computadores possuem o JRE, 
 
 
 Qual a vantagem do net beans?
@@ -493,7 +493,7 @@ permite image drop, facilita na criação gráfica
 
 
 Cuidados ao programar em java:
-java é case sensitive, devemos respeitar maiusculas e minusculas
+java é case sensitive, devemos respeitar maiúsculas e minúsculas
 
 
 Comando para rodar programa no netbeans:
@@ -503,18 +503,18 @@ f6
 println vs print:
 
 variáveis primitivas e não primitivas:
-primitivas - valores simples (criadas no inicio da linguagem)
+primitivas - valores simples (criadas no início da linguagem)
 não primitivas - valores mais complexos
 
 
-Como criar variável no java?
+Como criar variável no Java?
 dizer o tipo dela e dar o nome
 
 Em que parte do código devemos declarar as variáveis?
-podemos declarar as variáveis em qualquer parte do java
+podemos declarar as variáveis em qualquer parte do Java
 
 
-Quais os tipos de variáveis no java?
+Quais os tipos de variáveis no Java?
 int, float, double, char (aspas simples), byte, boolean, string (aspas duplas)
 
 
@@ -524,14 +524,14 @@ usar %
 operadores relacionais:
 (>, >= ...) 
 
-lógicos :
+lógicos:
 (&&, !(and, or)
 
 if aninhados:
 [fazer]
 
 Comando autocomplete no netbeans:
-ctrl + espaco
+ctrl + espaço
 
 comando quebrar código no netbeans:
 alt+shift 
@@ -553,7 +553,7 @@ Polimorfismo, herança, abstração, Encapsulamento
 
 
 O que é abstração em programação?
-ver a entidade no mundo real, selecionar informações para utilização no algoritimo
+ver a entidade no mundo real, selecionar informações para utilização no algoritmo
 
 
 Diferença nos dados na programação estruturada e orientada a objetos?
@@ -571,13 +571,13 @@ Boa prática ao criar um método no java:
 colocar nome do método no infinitivo
 
 
-O que é o principio de encapsulamento?
+O que é o princípio de encapsulamento?
 O objeto gerenciando suas informações
  
 No java por padrão os atributos são o quê?
 por padrão os atributos são públicos
 
-métodos acessores
+métodos assessores
 criando método de acesso para setar as variáveis 
 
 O que é o método construtor?
@@ -601,7 +601,7 @@ Quando há informações em comum entre os métodos. Heranças permite a reduç�
 antes do desenvolvimento há uma fase de modelagem [pesquisar sobre]
 
 
-Como extender uma classe no java?
+Como estender uma classe no java?
 public class Vendedor extends Funcionário {
 
 [uso do super()]
@@ -616,7 +616,7 @@ Pegar atributos da classe atual
 
 
 
-[tente replicar uma interface da internet [práticar]]
+[tente replicar uma interface da internet [praticar]]
 
 
 Em netbeans, qual a diferença das interfaces Swing e AWT?
@@ -641,13 +641,13 @@ Limita o uso do usuário e pode haver problemas de visualização com o montior
 Qual a primeira coisa a se fazer ao construir um software?
 especificar bem a ideia. Detalhar tudo que o software será capaz de fazer
 
-Etapas para incio de projeto:
-Inicio de um projeto
+Etapas para início de projeto:
+Início de um projeto
 	definição de um projeto básico
 		Colocar descrição, objetivo, nome,
 	
 	requisitos do projeto
-		quais entidades(classes e seus atributos), funcionalidades, 
+		quais entidades (classes e seus atributos), funcionalidades, 
 	
 	regras de negócio
 		regras que o sistema deve seguir (ex: não ter login), validar um cpf em uma base de dados)
@@ -665,7 +665,7 @@ descrição> Gerenciamento de projeto e tarefas
 
 O que é MVC?
 padrão de projeto. MVC (model,view controller)
-que reprentam as atividades(tarefas, projetos), view, controladores
+que representam as atividades (tarefas, projetos), view, controladores
 
 
 
