@@ -5,7 +5,7 @@
 
 
 
-package capg;
+package capgmenini;
 import java.util.Scanner;
 /**
  *

@@ -2,14 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package capg;
+package capgmenini;
 
 /**
  *
  * @author lucas
  */
-public class aula1dImprimindo {
+public class aula3a_while {
     public static void main(String[] args) {
-        System.out.println("tes");
+        int i = 0;
+        while(i<=10){
+            System.out.println(i);
+            ++i;
+        }
     }
 }
