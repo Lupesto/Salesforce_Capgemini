@@ -14,14 +14,22 @@ import java.util.Scanner;
 public class aula3c_enquantoExercicio {
     public static void main(String[] args) {
         int maisVelho = 0;
-        float mediaIdades;
-        int quantosDeMenor;
-        int qtdEntrevistados = 0;
+        float somaIdades = 0;
+        int quantosDeMenor = 0;
+        int qtdEntrevistados = 1;
         
         while (qtdEntrevistados <= 5) {
             System.out.println("Qual sua idade?");
             int idadeInformada = new Scanner(System.in).nextInt();
-            
+            if(idadeInformada < 18)
+                quantosDeMenor++;
+            else if(idadeInformada > maisVelho)
+                    maisVelho = idadeInformada;
+            somaIdades = idadeInformada + somaIdades;
+            qtdEntrevistados++;
         }
+        System.out.println("Mais Velho: "+ maisVelho);
+        System.out.println("Quantidade de menor: "+quantosDeMenor);
+        System.out.println("Média: "+(somaIdades/5));
     }
 }
