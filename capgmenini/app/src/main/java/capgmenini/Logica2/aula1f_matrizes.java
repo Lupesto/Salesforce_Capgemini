@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class aula1f_matrizes {
     public static void main(String[] args) {
-        int poltrona[][] = {{1,2,3}, {4,5,6}};
+        int poltrona[][] = {{0,0,0}, {0,0,0}};
         
         
         for (int i = 0; i <= 1; i++) {
@@ -26,7 +26,8 @@ public class aula1f_matrizes {
             System.out.println("");
         }
         
-        while (true) { 
+        loop: while (true) { /** criei uma etiqueta para quebra-lo no case 3**/
+            System.out.println("");
             System.out.println("Menu");
             System.out.println("1 - Reservar Poltrona");
             System.out.println("2 - Mapa das poltronas");
@@ -35,23 +36,33 @@ public class aula1f_matrizes {
             int Selecionar = new Scanner(System.in).nextInt();
             switch (Selecionar) {
                 case 1:
-                    System.out.println("Informe a Poltrona: ");
+                    System.out.println("Informe a Poltrona (0,1,2): ");
                     int Poltrona = new Scanner(System.in).nextInt();
-                    System.out.println("Informe a Fila:");
+                    System.out.println("Informe a Fila (0 ou 1):");
                     int Fila = new Scanner(System.in).nextInt();
                     
                     if (poltrona[Fila][Poltrona] == 0) {
-                        
+                        poltrona[Fila][Poltrona] = 1;
+                    } else{
+                        System.out.println("Poltrona ocupada. Reserve outra");
+                       
+                        break;
                     }
                     
                     break;
                 case 2:
-                    
+                    for (int i = 0; i <= 1; i++) {
+                        for (int j = 0; j <= 2; j++) {
+                            System.out.print(" "+poltrona[i][j]+" ");
+
+                        }
+                        System.out.println("");
+                    }
                     break;
                     
                 case 3:
-                
-                    break;
+                    System.out.println("Programa encerrado");
+                    break loop;
             }
         }
     }

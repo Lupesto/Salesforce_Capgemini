@@ -1,0 +1,33 @@
+no xamp, ligar Apache e MySQL
+http://localhost/phpmyadmin/
+
+Guia > Base de dados
+https://prnt.sc/_kMTheoZRR4Y
+
+
+Criando tabela
+https://prnt.sc/cecFt5XnXsCl
++1 campo pois precisamos do ID
+
+Criando os campos
+https://prnt.sc/LByJWWrWqp7h
+Tudo foi elaborado previamente lá na documentação do projeto
+Auto incrementado (não precisamos nos preocupar com ID)
+Nulo quando marcado permite que o campo seja vazio
+
+
+Criando tabela tasks
+Id projects necessário para fazer conexão
+https://prnt.sc/tFrcaEh3p814
+
+Chave estrangeira 
+https://prnt.sc/RFQvMi1-xeAu
+
+Criando pacotes, 
+uso do alt+insert, atalho da IDE.
+https://prnt.sc/REQIe14wpw5Q
+
+
+
+
+PAREI AULA 10.b
