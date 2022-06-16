@@ -1,6 +1,11 @@
 no xamp, ligar Apache e MySQL
 http://localhost/phpmyadmin/
 
+
+Criando getters/setters, construtor e o toString
+https://prnt.sc/SuUw7A2EtflL
+
+
 Guia > Base de dados
 https://prnt.sc/_kMTheoZRR4Y
 
@@ -31,3 +36,41 @@ https://prnt.sc/REQIe14wpw5Q
 
 
 PAREI AULA 10.b
+
+Criando nova classe java
+
+Classes e atributos
+https://prnt.sc/kTHA1__kPkND
+
+
+Gerar construtor, getters e setters e toString
+https://prnt.sc/fki5SFzOAAOo
+
+
+
+10.c
+
+
+
+criar pacote chamado util
+https://prnt.sc/nB47YCEz1nrp
+
+dentro uma classe chamada ConnectionFactory
+Criando classe para conectar aos bancos de dados
+por padrão root e sem senha. porta está no xamp.
+https://prnt.sc/IQHeK0WUTOD7
+
+
+
+
+Java dependences, conjunto de bibliotecas que iniciam com o java
+jdbc não vem 
+dizer ao graddle que precisamos dessa lib. 
+ir em build script > buildgraddle > dependencies
+Lá colamos um código que há no site com diversas dependências do java. 
+https://prnt.sc/GGzCTD-bRJNo
+https://prnt.sc/GB1zzHFkzLr8
+
+--
+parei em 10.d
+
