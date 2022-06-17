@@ -4,13 +4,15 @@
 package todoApp;
 import todoApp.util.ConnectionFactory;
 import java.sql.Connection;
+import java.sql.DriverManager;
+import todoApp.model.project;
 
 public class App {
     public static void main(String[] args) {
         
         ConnectionFactory teste = new ConnectionFactory();
-        
-        Connection c = ; //Problema ao chamar método
-        ConnectionFactory. //fechar conexão
+        project.
+        ConnectionFactory.//fechar conexão
+                // Problema ao importar pacote.
     }
 }
