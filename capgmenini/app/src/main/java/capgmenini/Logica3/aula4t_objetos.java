@@ -5,22 +5,18 @@
 package capgmenini.Logica3;
 
 public class aula4t_objetos{
-    static class  Pessoa{
-        float peso;
-        float altura;
 
-        public float calcularIMC(){
-            float imc = peso/(altura*altura);
-            return imc;
-        }
-            
-    }
+  
     public static void main(String[] args) {
         
-        Pessoa oi = new Pessoa();
-        oi.altura = 4.3f;
-        System.out.println(oi.altura);
+        Pessoa oi = new Pessoa(); // Criando um objeto.  Pessoa oi < só declara que quer ter esse objeto 
+        oi.calcularIMC();
+        //oi.altura = 4.3f;
+        //System.out.println(oi.altura);
         
+        oi.altura = 1.65f;
+        oi.peso = 60f;
+        System.out.println(oi.calcularIMC());
         
     }
 }
