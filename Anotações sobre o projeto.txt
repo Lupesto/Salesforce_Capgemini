@@ -93,7 +93,7 @@ Caso ocorra um erro o programa fará outra operação.
 Abertura e fechamento de conexão com banco de dados
 
 -- 
-11
+11 trabalhando nos controladores
 
 [anotar etapas do desenvolvimento]
 método para as operações
@@ -102,10 +102,10 @@ método para as operações
 formas de setar valores
 o tipo data esperado do sql não é o mesmo do java util
 importar o date do sql
-==
-11.f
 
 
 
 
+
+11.k
 

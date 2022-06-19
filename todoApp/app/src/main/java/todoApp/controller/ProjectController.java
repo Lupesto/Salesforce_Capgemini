@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package todoApp.controller;
+
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -10,76 +11,61 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import todoApp.model.tasks;
+import todoApp.model.Project;
 import todoApp.util.ConnectionFactory;
+
 /**
  *
  * @author lucas
- * AULA 11
- * escreveremos dentro dos métodos o comando SQL para cada tarefa
+ * AULA 11.j
  */
-public class TaskController {
+public class ProjectController {
     
-    public void  save (tasks task){ //Assinatura de um método 
-        //AULA 11C
-        String sql = "INSERT INTO task (idProject,"
-                + "name,"
-                + "completed,"
-                + "notes,"
-                + "deadline,"
+    
+    
+public void  save (Project project){ 
+      
+        String sql = "INSERT INTO projects (name,"
+                + "description,"
                 + "createdAt,"
-                + "updateAt) VALUES (?,?,?,?,?,?,?,?)";
+                + "updateAt) VALUES (?,?,?,?)";
         
         Connection connection = null;
         PreparedStatement statement =  null;
         try {
             connection = ConnectionFactory.getConnection();
             statement = connection.prepareStatement(sql);
-            statement.setInt(1, task.getIdProject()); // substituição de cada interrogação
-            statement.setString(2,task.getName());
-            statement.setString(3,task.getDescription());
-            statement.setBoolean(4, task.isIsCompleted()); // Não informado antes sobre a existência deste método
-            statement.setString(5, task.getNotes());
+            statement.setString(1, project.getName()); 
+            statement.setString(2,project.getDescription());
+            statement.setDate(3, new Date(project.getCreatedAt().getTime()));
+            statement.setDate(4, new Date(project.getUpdatedAt().getTime())); 
             
-            //11.d
-            statement.setDate(6, new Date(task.getDeadline().getTime())); //Data do tipo sql, convertendo o date do util
-            statement.setDate(7, new Date(task.getCreateAt().getTime()));
-            statement.setDate(8, new Date(task.getUpgradeAt().getTime()));
             statement.execute(); 
             
             
             
-            ConnectionFactory.closeConnection(connection);
-            
-            
+         
             
         } catch (Exception ex) {
-            throw new RuntimeException("Erro ao salvar tarefa " 
+            throw new RuntimeException("Erro ao salvar projeto " 
             + ex.getMessage(), ex);
         } finally {
             ConnectionFactory.closeConnection(connection, statement);
-            //* Fechando statement
-            /*if(statement != null){ //sempre fechar o statement aula 11.e
-            /*    statement.close();
-            /*}
-            */
+
         }
         
         
         
     }
     //aula 11.f
-    public void update(tasks task){
-            String sql = "UPDATE task SET "
-                + "idProject = ?,"
+    public void update(Project project){
+            String sql = "UPDATE projects SET "
+    
                 + "name = ?,"
                 + "description = ?,"
-                + "notes = ?,"
-                + "completed = ?,"
-                + "deadline = ?,"
                 + "createdAt = ?,"
                 + "updateAt = ?,"
-                    + "WHERE id = ?";
+                + "WHERE id = ?";
         
             Connection connection = null;
             PreparedStatement statement = null;
@@ -89,21 +75,17 @@ public class TaskController {
                 connection = ConnectionFactory.getConnection();
                 statement = connection.prepareStatement(sql);
                 
-                statement.setInt(1, task.getIdProject());
-                statement.setString(2, task.getName());
-                statement.setString(3, task.getDescription());
-                statement.setString(4, task.getNotes());
-                statement.setBoolean(5, task.isIsCompleted());
-                statement.setDate (6, new Date(task.getDeadline().getTime()));
-                statement.setDate (7, new Date(task.getCreateAt().getTime()));
-                statement.setDate (8, new Date(task.getUpgradeAt().getTime()));
-                statement.setInt(9, task.getId()); //Aula 11.i
+                statement.setString(1, project.getName());
+                statement.setString(2, project.getDescription());
+                statement.setDate (3, new Date(project.getCreatedAt().getTime()));
+                statement.setDate (4, new Date(project.getUpdatedAt().getTime()));
+                statement.setInt(5, project.getId());
                 statement.execute();
                 
                 
                 
             } catch (Exception ex) {
-                throw new RuntimeException("Erro ao atualizar tarefa");
+                throw new RuntimeException("Erro ao atualizar projeto ");
             } finally {
                 ConnectionFactory.closeConnection(connection, statement);
             }
@@ -176,6 +158,4 @@ public class TaskController {
         // busca todas tarefas de um determinado projeto
         return null;
     }
-    
 }
-

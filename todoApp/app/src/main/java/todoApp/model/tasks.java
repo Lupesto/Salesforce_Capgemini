@@ -65,8 +65,8 @@ public class tasks {
         return description;
     }
     
-    public boolean isIsCompleted(){
-        return isIsCompleted;
+    public void isIsCompleted(boolean aBoolean){
+        this.isIsCompleted = aBoolean;
     }
 
     public void setDescription(String description) {
@@ -109,5 +109,6 @@ public class tasks {
     public String toString() {
         return "tasks{" + "id=" + id + ", idProject=" + idProject + ", name=" + name + ", description=" + description + ", notes=" + notes + ", deadline=" + deadline + ", createAt=" + createAt + ", upgradeAt=" + upgradeAt + '}';
     }
+
     
 }
