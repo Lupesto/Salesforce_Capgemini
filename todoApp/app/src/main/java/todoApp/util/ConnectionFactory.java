@@ -5,10 +5,12 @@
 package todoApp.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 
 /**
  *
  * @author lucas
+ * AULA 10.D
  */
 public class ConnectionFactory {
     
@@ -38,7 +40,23 @@ public class ConnectionFactory {
         
     }
 
-    
+
+    //aula 11.e fechando o statement
+    public static void closeConnection(Connection connection, PreparedStatement statement){
+	try{
+            if(connection != null) //identificar se conexão existe.
+            connection.close();
+            if(statement != null)
+            statement.close();
+        }
+        
+        
+	catch (Exception ex){
+		throw new RuntimeException("Erro ao fechar conexão com banco de dados");
+	}
+
+        
+    }
     
     
 }

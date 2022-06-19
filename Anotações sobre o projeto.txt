@@ -90,12 +90,20 @@ Caso ocorra um erro o programa fará outra operação.
 
 --
 
-Fechando conexão
-Problema para chamar método da  classe connection
+Abertura e fechamento de conexão com banco de dados
 
 -- 
 11
 
+[anotar etapas do desenvolvimento]
+método para as operações
+
+
+formas de setar valores
+o tipo data esperado do sql não é o mesmo do java util
+importar o date do sql
+==
+11.f
 
 
 

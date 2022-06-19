@@ -5,14 +5,18 @@ package todoApp;
 import todoApp.util.ConnectionFactory;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import todoApp.model.project;
+
 
 public class App {
     public static void main(String[] args) {
         
-        ConnectionFactory teste = new ConnectionFactory();
-        project.
-        ConnectionFactory.//fechar conexão
-                // Problema ao importar pacote.
+        //AULA 10.E conexão com banco de dados
+        Connection c = ConnectionFactory.getConnection();
+
+
+        //fechar conexão com banco de daddos
+        ConnectionFactory.closeConnection(c);
+        
+        
     }
 }
