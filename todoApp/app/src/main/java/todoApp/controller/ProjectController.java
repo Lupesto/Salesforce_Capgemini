@@ -92,19 +92,16 @@ public void  save (Project project){
         
     }
     
-    public void removeById(int tasksId) throws SQLException{
-        //AULA 11.b
-        //receberá o Id da tarefa que queremos deletar.
-        // ponto de interrogação será substituido por tasksId
-        String sql = "DELETE FROM tasks WHERE ID = ?";
+    public void removeById(int projectId) throws SQLException{
+        String sql = "DELETE FROM projects WHERE ID = ?";
         Connection conn = null;
         PreparedStatement statement = null;
         
         try {
-            conn = ConnectionFactory.getConnection(); //pedindo conexão com banco de dados
-            statement = conn.prepareStatement(sql); // objeto para preparar o comando SQL inputado no banco
-            statement.setInt(1, tasksId); //Substituindo a interrogação pelo tasksId
-            statement.execute(); //executa o comando no SQL 
+            conn = ConnectionFactory.getConnection();
+            statement = conn.prepareStatement(sql); 
+            statement.setInt(1, projectId); 
+            statement.execute(); 
             
             
             
@@ -116,43 +113,43 @@ public void  save (Project project){
         
     }
     
-    //aula 11.g.
-    public List<tasks> getAll(int idProject){
-        //Criar uma classe para guardar as respostas do banco de dados
-        String sql = "SELECT * FROM tasks WHERE idproject = ?"; //Query SQL
+   
+    public List<Project> getAll(){
         
+        String sql = "SELECT * FROM Project"; 
+        
+        List<Project> projects = new ArrayList<>();
         Connection connection = null;
         PreparedStatement statment = null;
-        ResultSet resultset = null; //Variável para guardar a resposta do banco de dados
+        ResultSet resultset = null;
         
-        //Lista de tarefas 
-        List<tasks> task = new ArrayList<tasks>();
         
         try {
             connection = ConnectionFactory.getConnection();
             statment = connection.prepareStatement(sql);
-            statment.setInt(1, idProject); //id do projeto que queremos buscar inputado na query
             resultset = statment.executeQuery();
             
-            while(resultset.next()){ //enquanto houver tarefa no resultset, fazer:
-                tasks taskA = new tasks();
-                taskA.setId(resultset.getInt("id"));
-                taskA.setIdProject(resultset.getInt("idProject"));
-                taskA.setName(resultset.getString("name"));
-                taskA.setDescription(resultset.getString("description"));
-                taskA.setNotes(resultset.getString("notes"));
-                taskA.isIsCompleted(resultset.getBoolean("completed")); //Não mostrou o  método em aula
-                taskA.setDeadline(resultset.getDate("deadline"));
-                taskA.setCreateAt(resultset.getDate("createAt"));
-                taskA.setUpgradeAt(resultset.getDate("updatedAt"));
-                //Aula 11.h
-                task.add(taskA); //Colocando tarefa na lista de tarefas
+            while(resultset.next()){
+                Project project = new Project(); //Já possui construtor mas continua com erro
+                
+                
+                
+                
+                
+                project.setId(resultset.getInt("id"));
+               
+                project.setName(resultset.getString("name"));
+                project.setDescription(resultset.getString("description"));
+                project.setCreatedAt(resultset.getDate("createAt"));
+                project.setUpdatedAt(resultset.getDate("updatedAt"));
+                
+                projects.add(project); 
             }
         } catch (Exception ex) {
             throw new RuntimeException("Erro ao inserir tarefa"+ ex.getMessage(), ex);
         } finally {
             ConnectionFactory.closeConnection(connection, statment, resultset); 
-            //Erro, sendo que eu já possuo o método de fechamento
+           
         }
         
         // busca todas tarefas de um determinado projeto

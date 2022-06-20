@@ -5,7 +5,8 @@ package todoApp;
 import todoApp.util.ConnectionFactory;
 import java.sql.Connection;
 import java.sql.DriverManager;
-
+import todoApp.controller.ProjectController;
+import todoApp.model.Project;
 
 public class App {
     public static void main(String[] args) {
@@ -13,9 +14,27 @@ public class App {
         //AULA 10.E conexão com banco de dados
         Connection c = ConnectionFactory.getConnection();
 
+        //Aula 10.L
+        ProjectController projectController = new ProjectController();
+        Project project = new Project();
+        project.setName("Projeto teste");
+        project.setDescription("Olá mundo");
+        projectController.save(project);
+        
+        project.setName("Novo nome");
+        projectController.update(project);
+        
+        List<Project> projects = projectController.getAll();
+        System.out.println("Total de projetos: " + projects.size());
+        //Aula 10.L
 
-        //fechar conexão com banco de daddos
+
+//fechar conexão com banco de daddos
         ConnectionFactory.closeConnection(c);
+        
+        
+        
+        
         
         
     }
