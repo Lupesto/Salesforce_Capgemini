@@ -18,4 +18,25 @@ public class Pessoa {
         return imc;
         
     }
+
+    public Pessoa() {
+        this.altura = 1.00f;
+    }
+    
+    
+    public void setPeso(float peso){
+        this.peso = peso;
+    }
+    
+    public float getPeso(){
+        return peso;
+    }
+    
+    public void setAltura(float altura){
+        this.altura = altura;
+    }
+    
+    public float getAltura(){
+        return altura;
+    }
 }
