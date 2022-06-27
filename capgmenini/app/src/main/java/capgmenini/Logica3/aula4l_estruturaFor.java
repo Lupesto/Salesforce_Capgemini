@@ -6,16 +6,13 @@ package capgmenini.Logica3;
 
 /**
  *
- * @author lucas
+ * @author Lucas
  */
-public class aual4v_construtor {
+public class aula4l_estruturaFor {
     public static void main(String[] args) {
-        //Construtor = inicializador
-        Pessoa lucas = new Pessoa();
-        
-        
-        System.out.println(lucas.getAltura());
-        System.out.println(lucas.getPeso());
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
         
         
     }
