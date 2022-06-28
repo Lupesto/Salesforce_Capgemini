@@ -11,14 +11,14 @@ import todoApp.model.Project;
 public class App {
     public static void main(String[] args) {
         
-        //AULA 10.E conexão com banco de dados
+        //AULA 10.E conexï¿½o com banco de dados
         Connection c = ConnectionFactory.getConnection();
 
-        //Aula 10.L
+        //Aula 10.L teste salvando projeto no banco de dados
         ProjectController projectController = new ProjectController();
         Project project = new Project();
         project.setName("Projeto teste");
-        project.setDescription("Olá mundo");
+        project.setDescription("Olï¿½ mundo");
         projectController.save(project);
         
         project.setName("Novo nome");
@@ -29,7 +29,7 @@ public class App {
         //Aula 10.L
 
 
-//fechar conexão com banco de daddos
+//fechar conexï¿½o com banco de daddos
         ConnectionFactory.closeConnection(c);
         
         
