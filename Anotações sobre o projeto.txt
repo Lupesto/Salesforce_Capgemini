@@ -110,3 +110,35 @@ importar o date do sql
 11.l
 teste input, delete e update de projeto no banco de dados
 
+---
+[anotar passo a passo das intruções]
+12.a
+mainScreen 
+criando elementos visuais
+preview design
+adicionando icone como logo + pasta resources
+
+12.b
+colocando borda
+separando espaços para os paineis do mainScreen
+adicionando icone + como label
+
+12.c
+elemento list, adicionar na parte de projetos
+adicionar painel com imagem informando que nenhum projeto foi selecionado
+limitar a redução da janela por parte do usuário
+
+12.d
+arrumando itens da lista (estilização, e select mode)
+
+12.e
+Espaçamento entre os itens da lista
+é possível visualizar cada painel individualmente
+nomeando elementos do jFrame no navigator
+
+
+12.f
+
+---
+
+12.D, prints

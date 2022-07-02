@@ -16,11 +16,11 @@ import todoApp.util.ConnectionFactory;
  *
  * @author lucas
  * AULA 11
- * escreveremos dentro dos métodos o comando SQL para cada tarefa
+ * escreveremos dentro dos mï¿½todos o comando SQL para cada tarefa
  */
 public class TaskController {
     
-    public void  save (tasks task){ //Assinatura de um método 
+    public void  save (tasks task){ //Assinatura de um mï¿½todo 
         //AULA 11C
         String sql = "INSERT INTO task (idProject,"
                 + "name,"
@@ -35,10 +35,10 @@ public class TaskController {
         try {
             connection = ConnectionFactory.getConnection();
             statement = connection.prepareStatement(sql);
-            statement.setInt(1, task.getIdProject()); // substituição de cada interrogação
+            statement.setInt(1, task.getIdProject()); // substituiï¿½ï¿½o de cada interrogaï¿½ï¿½o
             statement.setString(2,task.getName());
             statement.setString(3,task.getDescription());
-            statement.setBoolean(4, task.isIsCompleted()); // Não informado antes sobre a existência deste método
+            //statement.setBoolean(4, task.isIsCompleted()); // Nï¿½o informado antes sobre a existï¿½ncia deste mï¿½todo
             statement.setString(5, task.getNotes());
             
             //11.d
@@ -93,7 +93,7 @@ public class TaskController {
                 statement.setString(2, task.getName());
                 statement.setString(3, task.getDescription());
                 statement.setString(4, task.getNotes());
-                statement.setBoolean(5, task.isIsCompleted());
+                //statement.setBoolean(5, task.isIsCompleted());
                 statement.setDate (6, new Date(task.getDeadline().getTime()));
                 statement.setDate (7, new Date(task.getCreateAt().getTime()));
                 statement.setDate (8, new Date(task.getUpgradeAt().getTime()));
@@ -112,24 +112,24 @@ public class TaskController {
     
     public void removeById(int tasksId) throws SQLException{
         //AULA 11.b
-        //receberá o Id da tarefa que queremos deletar.
-        // ponto de interrogação será substituido por tasksId
+        //receberï¿½ o Id da tarefa que queremos deletar.
+        // ponto de interrogaï¿½ï¿½o serï¿½ substituido por tasksId
         String sql = "DELETE FROM tasks WHERE ID = ?";
         Connection conn = null;
         PreparedStatement statement = null;
         
         try {
-            conn = ConnectionFactory.getConnection(); //pedindo conexão com banco de dados
+            conn = ConnectionFactory.getConnection(); //pedindo conexï¿½o com banco de dados
             statement = conn.prepareStatement(sql); // objeto para preparar o comando SQL inputado no banco
-            statement.setInt(1, tasksId); //Substituindo a interrogação pelo tasksId
+            statement.setInt(1, tasksId); //Substituindo a interrogaï¿½ï¿½o pelo tasksId
             statement.execute(); //executa o comando no SQL 
             
             
             
         } catch (Exception ex) {
-            throw new RuntimeException("Erro ao deletar tarefa"); //aula 11.e. Tratamento de qualquer exceção que ocorra
+            throw new RuntimeException("Erro ao deletar tarefa"); //aula 11.e. Tratamento de qualquer exceï¿½ï¿½o que ocorra
         } finally { //bloco sempre executado independete de try e catch
-            ConnectionFactory.closeConnection(conn, statement); //fechamento conexão e statement
+            ConnectionFactory.closeConnection(conn, statement); //fechamento conexï¿½o e statement
         }
         
     }
@@ -141,7 +141,7 @@ public class TaskController {
         
         Connection connection = null;
         PreparedStatement statment = null;
-        ResultSet resultset = null; //Variável para guardar a resposta do banco de dados
+        ResultSet resultset = null; //Variï¿½vel para guardar a resposta do banco de dados
         
         //Lista de tarefas 
         List<tasks> task = new ArrayList<tasks>();
@@ -159,7 +159,7 @@ public class TaskController {
                 taskA.setName(resultset.getString("name"));
                 taskA.setDescription(resultset.getString("description"));
                 taskA.setNotes(resultset.getString("notes"));
-                taskA.isIsCompleted(resultset.getBoolean("completed")); //Não mostrou o  método em aula
+                taskA.isIsCompleted(resultset.getBoolean("completed")); //Nï¿½o mostrou o  mï¿½todo em aula
                 taskA.setDeadline(resultset.getDate("deadline"));
                 taskA.setCreateAt(resultset.getDate("createAt"));
                 taskA.setUpgradeAt(resultset.getDate("updatedAt"));
@@ -170,7 +170,7 @@ public class TaskController {
             throw new RuntimeException("Erro ao inserir tarefa"+ ex.getMessage(), ex);
         } finally {
             ConnectionFactory.closeConnection(connection, statment, resultset); 
-            //Erro, sendo que eu já possuo o método de fechamento
+            //Erro, sendo que eu jï¿½ possuo o mï¿½todo de fechamento
         }
         
         // busca todas tarefas de um determinado projeto
