@@ -142,3 +142,102 @@ nomeando elementos do jFrame no navigator
 ---
 
 12.D, prints
+
+
+12j ->
+ir em source do main frame
+ expandir o método main
+substituir template para java.swing para fazer mudanças no grid
+
+criando método para mudar fonte, background,
+
+import do awt no java.
+sorter -> permitir icone para ordenar em ordem alfabetica
+
+chamar o método em main screen
+
+---
+
+13.a
+
+cadastro de projeto.
+adicionando evento quando elemento for cliccado
+ativar o dialog assim que tela clicada
+
+dê nomes aos componentes gráficos para não se perder.
+
+pegando texto dentro dos componentes gráfico ao invés de setar informações pelo codigo 
+
+caixa de diálogo assim que o usuário salvar o projeto
+
+--
+
+13.b
+tratando exceção. 
+Colocando todo todo código dentro de try e retornar a exceção caso dê erro.
+
+
+
+---
+
+14.a
+
+adicionando um campo formatado para trabalharmos com data
+
+this.dispose(); serve para fechar janela
+
+---
+
+14.b
+
+evento para salvar tarefa
+ligando tarefa a chave estrangeira 
+criando um setter de project para dizer ao programa qual projeto a tarefa pertence
+
+-- 
+14.c
+
+id no projeto na unha para testar tela de tarefa
+
+salvando tarefa bi vabci de dados
+
+--
+
+15.a
+
+tela principal da aplicação
+carregando as tarefas e projetos
+
+iniciando os métodos controladores
+
+componente grafico e models.
+
+--
+15.b 
+
+carregar dados em nossa lista
+vindos do banco de dados
+[confuso
+
+
+--
+15.c
+
+problema ao adicionar projetos pois é um objeto e o componente pede string.
+
+
+--
+
+15.d
+
+assim que criar um novo projeto quer que apareça na lista de projetos
+
+
+evento de click adicionar 
+quando janela for fechada
+carregue/atualize projetos
+
+
+--
+
+16.a
