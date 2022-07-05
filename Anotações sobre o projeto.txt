@@ -241,3 +241,143 @@ carregue/atualize projetos
 --
 
 16.a
+fazendo via código
+maior liberdade de customização
+
+herdar da abstractTable Model
+
+a classe mãe exige import de alguns métodos
+implementar todos métodos abstratos da classe
+(não entra em detalhes por ser um assunto mais complexo)
+
+
+adicionando colunas que vão aparecer na table e lista de tarefas
+quais colunas e dados teremos
+--
+16.b
+getRowCount-> quantas linhas teremos na tabela
+getColumnCount -> quantas colunas
+getValueAt -> método para retornar linha e coluna especifica
+Uso do switch para retornar coluna e linha com base linha e coluna
+--
+
+16.c
+definindo quais dados teremos no grid
+
+
+-- 
+16.d
+
+carregar todas as tarefas de um projeto especifico na tabela
+
+
+getters - colunas
+setters - tarefas
+--
+
+[dividir tudo em pequenos programas para desenvolver]
+
+--
+16.e
+
+conferindo erros
+criando o getColumnName -> que não é obrigatório, mas precisamos no caso
+
+em getValueAt o switch deve começar com 0 por conta do vetor
+
+-- 
+16.f
+
+desabilitar a posibilidade do usuário selecionar várias linhas com alt.
+
+Alteração do formato data para a nossa.
+--
+
+16.g
+colocando check na tabela
+
+método para tornar a célula da tabela editável, por padrão a classe pai vem travada
+Especificar uma coluna 
+Permite edições, mas não atualiza no banco de daddos
+
+
+--
+16.h
+
+@override <- sobreescrever um método
+
+identificando tipo de dado por parte da interface gráfica
+mudar o componente gráfico com base no tipo de informação contida nele.
+ex: surgimento do check para boleano
+
+--
+16.i
+CONVERSÃO DE TIPOS
+conversão de um object para bolean
+(não entendi o motivo de não ter colocado o bolean direto)
+Permitiu que o campo altere seu valor para true ou false conforme interesse usuário
+
+Porém não salva no banco de dados a mudança
+
+
+--
+
+17.a
+Salvando status da tarefa no banco de dados
+
+Método para identificar em que ponto da tabela houve o click
+
+uso do swtich, caso clicar na coluna 3:
+salvar tarefa no banco de dados
+
+--
+17.b 
+continuação aula A
+
+acessar tarefa no taskModel com base na linha que foi clicada
+mudança para o método update do taskcontroller
+
+[rever aula <- não entendi ]
+
+
+
+--
+
+17.c
+carregar tarefas conforme projeto selecionado
+
+método para retornar lista tarefas do projeto clicado
+
+converter um objeto para a classse projeto
+
+--
+17.d
+continuação aula 17.c
+
+método showJTableTasks
+recebe como parâmetro tarefas carregadas
+remove a mensagem de lista vazia na tela
+
+Se houver tarefas colocar outro tipo de componente gráfico dentro do JPanel vazil
+
+se tiver tarefas exibir -> lista de tarefas no container 
+se não -> tela informando que está vazio
+
+loadTasks
+método para identificar se lista está vazia
+
+
+--
+17.e
+
+resolvendo problema:
+mesmo não selecionando nenhum projeto o programa apresenta algumas tarefas
+
+forçar seleção do primeiro item da lista de projetos
+
+NÃO DÁ PARA ACOMPANHAR, EDIÇÃO DO VÍDEO ERRADA
+
+--
+17.F
+
+
