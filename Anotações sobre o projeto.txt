@@ -381,3 +381,34 @@ NÃO DÁ PARA ACOMPANHAR, EDIÇÃO DO VÍDEO ERRADA
 17.F
 
 
+na hora de salvar dizer para qual projeto a tarefa pertence
+
+--
+17.g
+
+atualizar lista de tarefas assim que a tela de adicionar tarefa for fechada.
+
+adicionar um listener 
+Quando janela for fechada atualizar tarefas
+
+
+-- 
+17.h
+
+ajuste ao autoresing 
+fazer com que o componente interno do jPanel respeite o size do container
+--
+
+17.i 
+função de remover tarefas de um projeto pela interface
+
+caso clique na coluna 5 excluir tarefa 
+
+remover tratamento de erro SQLException (não aprofundou)
+
+além de remover tarefa recarregar página
+
+--
+18.a
+
+
