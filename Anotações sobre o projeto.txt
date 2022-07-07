@@ -410,5 +410,50 @@ além de remover tarefa recarregar página
 
 --
 18.a
+melhorias de interface
+
+coluna de prazo em vermelho caso prazo estiver estourado
+
+mudança no renderizador padrão no JAVA do Jframe
+
+sobreescrevendo um método da classe
+centralizando data na célula
+
+--
+
+18.b
+colorindo a célula conforme prazo da tarefa
+se data do prazo > data atual pintar em vermelho
+--
+
+18.c
+colocando na mainScreen que devemos utilizar o método criado anteriormente de customização
+
+mudança de ordem de funções no mainScreen.
+
+--
+18.d
+
+criando classe para botão na jTable editar e excluir
+setando icone na label
+método que acessa pasta resources 
+
+--
+18.e
+
+Permitir que colunas mostrem os botões
+criando construtor para informar o botão que queremos renderizar
+--
+19.a
+
+Validações de campos
+Acessando banco de dados e confirmando campos que podem ser nulos.
+
+acessando componente responsável por salvar projeto.
+
+permitir o cadastro do campo se valor não for vazio
+
+--
+19.b
 
 
