@@ -455,5 +455,52 @@ permitir o cadastro do campo se valor não for vazio
 
 --
 19.b
+validar dados inputados
+campos que não precisamos nos preocupar: ID e idProject
 
+se campo vazio obrigar usuário a preencher
+
+apresentou 2 formas de código
+--
+
+20.a
+
+alternativas de código
+Informar qual campo está com erro na tela.
+
+--
+20.b
+resolvendo erros no método anterior
+escondendo todos os campos para apresentar o erro do campo correspondente
+
+EXISTEM MELHORIAS A SEREM FEITAS NO PROJETO
+exemplo: ação com base nos icones criados, e não nas células
+
+--
+21.a
+
+mode debug
+execução passo a passo
+pede breaking points
+f8 execução linha por linha
+permite vermos os valores das variáveis 
+
+--
+22.a
+projeto final com projeto reais
+
+Fazer melhorias na aplicação:
+Criação de tags,
+criação do conceito de conta e usuário,
+tela de login,
+permitir a alteração dos dados da tarefa
+
+
+--
+22.b
+git hub e repositório
+
+
+--
+s
 
